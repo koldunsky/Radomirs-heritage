@@ -1,0 +1,123 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 20px;
+}
+
+.banner {
+  position: relative;
+  width: 235px;
+  height: 300px;
+
+  border-radius: 5px;
+
+  float: left;
+  margin-right: 15px;
+  background-color: inherit;
+}
+
+.text_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+}
+
+.banner_caption {
+  font-family: "Gotham SSm", "Gotham";
+  font-size: 15px;
+  font-weight: 500;
+
+  text-align: center;
+}
+
+.object {
+  position: absolute;
+  mask-repeat: no-repeat;
+  background-color: white;
+  opacity: .1;
+}
+
+.star {
+  width: 7px;
+  height: 7px;
+  -webkit-mask-image: url(images/star.svg);
+  mask-image: url(images/star.svg);
+}
+
+.bot {
+  width: 22px;
+  height: 27px;
+  -webkit-mask-image: url(images/bot.svg);
+  mask-image: url(images/bot.svg);
+}
+
+.four {
+  width: 24px;
+  height: 24px;
+  -webkit-mask-image: url(images/four.svg);
+  mask-image: url(images/four.svg);
+}
+
+.platform {
+  width: 24px;
+  height: 18px;
+  -webkit-mask-image: url(images/platform.svg);
+  mask-image: url(images/platform.svg);
+}
+
+.animated {
+  animation: pulse 2s cubic-bezier(.2, 0, .4, 1) 1;
+}
+
+@keyframes pulse {
+
+  0%, 100% {
+    opacity: .1;
+  }
+
+  50% {
+    opacity: .5;
+  }
+
+}
+
+.dark {
+  background-color: #12121c;
+  color: rgba(255,255,255,.2);
+}
+
+.dark > .banner {
+
+  background-color: inherit;/* Mask 🌈cubic-bezier(0.5, 0, 0.5, 1);lrgb;10: */
+  box-shadow:   0 -11px 40px 0 rgba(255,255,255,0.05),
+                0 1px 0 0 rgba(255,255,255,0.10),
+                inset 0 3px 9px 0 rgba(0,0,0,0.25),
+                inset 0 1px 3px 0 rgba(0,0,0,0.25);
+}
+
+.dark > .banner > .object {
+  background-color: white;
+}
+
+.light {
+  background-color: #e8e8ec;
+  color: rgba(0,0,0,.1);
+}
+
+.light > .banner {
+  box-shadow:   0 -11px 40px 0 rgba(255,255,255,0.50),
+                0 1px 0 0 rgba(255,255,255,0.10),
+                inset 0 3px 9px 0 rgba(0,0,0,0.025),
+                inset 0 1px 3px 0 rgba(0,0,0,0.025);
+  background-color: inherit;
+}
+
+.light > .banner > .object {
+  background-color: black;
+}

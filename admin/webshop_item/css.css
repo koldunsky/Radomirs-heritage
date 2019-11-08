@@ -1,0 +1,275 @@
+:root {
+  background-color: #e8e8ec;
+  font-family: Gotham SSm;
+  font-weight: 300;
+  font-size: 13px;
+  font-variant-numeric: tabular-nums !important;
+  padding: 60px;
+  padding-bottom: 0;
+}
+
+body {
+  margin: 0;
+}
+
+*::placeholder {
+  color: hsla(0, 0%, 0%, 25%);
+}
+
+input, textarea {
+  border: 0;
+  border-bottom: 1px solid hsla(0, 0%, 0%, 20%);
+  background-color: transparent;
+  font-size: 1rem;
+  font-variant-numeric: tabular-nums !important;
+  line-height: 15px;
+  font-family: Gotham SSm;
+}
+
+label ~ input {
+  margin-top: 10px;
+  padding-bottom: 5px;
+}
+
+input:focus, textarea:focus {
+    border-bottom: 2px solid #f5b105;
+    outline-width: 0;
+}
+
+input:focus {
+    padding-bottom: 4px;
+}
+
+textarea {
+  resize: vertical;
+  margin-top: 1.15rem;
+}
+
+button {
+  font-size: 15px;
+  padding: 10px 15px;
+  border-radius: 3px;
+  line-height: 20px;
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 1px solid hsla(0, 0%, 0%, 20%);
+}
+
+button:hover {
+  filter: brightness(1.1);
+  border: 1px solid hsla(0, 0%, 0%, 40%);
+}
+
+button:active {
+  filter: brightness(0.9);
+}
+
+label {
+  /* font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: hsla(0, 0%, 0%, 50%); */
+  line-height: 15px;
+}
+
+input:disabled ~ label {
+  color: hsla(0, 0%, 0%, 50%);
+}
+
+input[type="radio"], input[type="checkbox"] {
+  margin: 0;
+  width: 15px;
+  height: 15px;
+  border: 0;
+}
+
+input[type="radio"] ~ label {
+  text-transform: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.gallery {
+  width: 100%;
+  height: 325px;
+  display: flex;
+  flex-direction: row;
+}
+
+.gallery {
+    width: 520px;
+    height: inherit;
+    margin-right: 30px;
+}
+
+.thumbs {
+    width: 90px;
+    height: inherit;
+    margin-left: 30px;
+}
+
+.thumb {
+    width: 90px;
+    height: 50px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.thumb img {
+    width: 100%;
+}
+
+.thumb.empty {
+    border: 1px dashed hsla(0, 0%, 0%, 20%);
+}
+
+h2, h3 {
+  margin: 0 0 1.15rem 0;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button.primary {
+  background-color: #f5b105;
+  border-color: transparent;
+}
+
+button.delete {
+    color: #DC1D39;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.wrapper {
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  margin-bottom: 45px;
+}
+
+.wrapper > *:not(:last-child), .version > *:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.item_name {
+  font-size: 2.7rem;
+  font-weight: 500;
+}
+
+textarea {
+  width: 100%;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+}
+
+.group-wrap {
+  display: flex;
+}
+
+.horizontal {
+  flex-direction: horizontal;
+  margin-right: 15px;
+}
+
+.vertical {
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.mandatory label:after {
+  content: "*";
+  color: #DC1D39;
+}
+
+.input span {
+  font-size: 11px;
+  line-height: 15px;
+  color: hsla(0, 0%, 0%, 50%);
+  margin-top: 5px;
+}
+
+.version * * input {
+  width: 185px;
+  margin-right: 45px;
+}
+
+.timed {
+  position: relative;
+}
+
+.timed ~ .group-wrap {
+  transition: all 0.1s ease-in-out;
+  position: relative;
+  top: 10px;
+  opacity: 1;
+  margin-bottom: 15px;
+}
+
+.timed:not(:checked) ~ .group-wrap{
+  opacity: 0;
+  pointer-events: none;
+  top: -25px;
+  margin-bottom: -45px;
+}
+
+.tabs {
+  width: 100vw;
+  margin-left: -60px;
+  padding-left: 60px;
+  margin-bottom: 0 !important;
+  box-sizing: border-box;
+}
+
+.tabs button {
+  padding: 10px 15px;
+  border-radius: 5px 5px 0 0;
+  border-color: transparent;
+  box-sizing: border-box;
+}
+
+.tabs button:hover {
+  padding: 10px 15px;
+  border-radius: 5px 5px 0 0;
+  border-color: transparent;
+  box-sizing: border-box;
+  background-color: hsla(0, 0%, 0%, 5%);
+}
+
+.tabs button.active {
+  background-color: white;
+}
+
+.version {
+  background-color: white;
+  width: 100vw;
+  margin-left: -60px;
+  padding: 30px 120px 45px 60px;
+  box-sizing: border-box;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  margin: 0;
+  width: 15px;
+  height: 15px;
+  border: 0;
+}
+
+.hidden {
+    display: none;
+}

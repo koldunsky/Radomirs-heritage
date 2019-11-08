@@ -1,0 +1,17 @@
+label {
+    display: block;
+}
+
+.example {
+    display: flex;
+}
+
+.ui_container {
+    width: 285px;
+    margin-right: 30px;
+}
+
+select {
+    width: 100%;
+    min-height: 100px;
+}

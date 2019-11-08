@@ -1,0 +1,13 @@
+step_id;previous_event_id;event_id;event_name;visitors
+1;;100;users.clicked.first_page;100
+2;100;1;users.clicked.accounts.signedin;10
+2;100;2;users.clicked.game.account.created;60
+2;100;3;users.clicked.game.account.signedin;30
+3;1;4;users.clickeds.installer.installation.finished;5
+3;1;5;users.clicked.installer.installation.started;3
+3;1;2;users.clicked.game.account.created;2
+3;2;100;users.clicked.first_page;39
+3;2;5;users.clicked.installer.installation.started;15
+3;2;1;users.clicked.accounts.signedin;5
+3;2;3;users.clicked.game.account.signedin;1
+3;3;6;users.clicked.email.deleted;30

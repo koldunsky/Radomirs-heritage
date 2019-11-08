@@ -1,0 +1,35 @@
+/* Стейты */
+
+.move {
+  transition: cubic-bezier(.4,0,.2,1);
+}
+
+.show {
+  transition: cubic-bezier(0,0,.2,1);
+}
+
+.hide {
+  transition: cubic-bezier(.4,0,1,1);
+}
+
+/* Изинги */
+
+.small {
+  transition-duration: .1s;
+}
+
+.medium {
+  transition-duration: .25s;
+}
+
+.large {
+  transition-duration: .4s;
+}
+
+.medium.hide {
+  transition-duration: .2s;
+}
+
+.large.hide {
+  transition-duration: .3s;
+}

@@ -1,0 +1,285 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/css.css">
+  <link rel="stylesheet" type="text/css" href="css/grid.css">
+  <link rel="stylesheet" type="text/css" href="css/animations.css">
+
+  <link rel="stylesheet" type="text/css" href="css/link.css">
+  <link rel="stylesheet" type="text/css" href="css/button.css">
+  <link rel="stylesheet" type="text/css" href="css/textfield.css">
+  <link rel="stylesheet" type="text/css" href="css/checkbox.css">
+  <link rel="stylesheet" type="text/css" href="css/scroll.css">
+  <link rel="stylesheet" type="text/css" href="css/rest.css">
+  <link rel="stylesheet" type="text/css" href="css/list.css">
+  <link rel="stylesheet" type="text/css" href="css/tooltip.css">
+  <link rel="stylesheet" type="text/css" href="css/tabs.css">
+  <link rel="stylesheet" type="text/css" href="css/cards.css">
+
+  <script src="scripts/main.js" type="text/javascript"></script>
+  <script src="scripts/tabs.js" type="text/javascript"></script>
+</head>
+
+<body onload="onLoad();">
+  <!-- ссылка -->
+  <div class="gridcontainer onerow">
+    <h1 id="title">Link</h1>
+    <a class="small move" id="item1">Молиться</a>
+  </div>
+
+  <!-- кнопка -->
+  <div class="gridcontainer onerow">
+     <h1 id="title">Button</h1>
+     <button class="fill small move dontfill" id="item1">Молиться</button>
+     <button class="border small move dontfill" id="item2">Поститься</button>
+     <button class="ghost small move dontfill" id="item3">Слушать радио Радонеж</button>
+   </div>
+
+  <!-- текстовые поля -->
+  <div class="gridcontainer onerow">
+    <h1 id="title">Text Field</h1>
+    <div id="item1">
+      <label for="input1" class="textfield_label">Regular</label>
+      <input id="input1" placeholder="Placeholder" class="textfield small move">
+    </div>
+    <div id="item2">
+      <label for="input2" class="textfield_label">Invalid</label>
+      <input id="input2" placeholder="Placeholder" class="textfield invalid small move">
+    </div>
+  </div>
+
+  <!-- чекбокс -->
+  <div class="gridcontainer onerow">
+    <h1 id="title">Check/radio</h1>
+    <div id="item1">
+      <input type="checkbox" class="checkbox small move" id="checkbox1">
+      <label for="checkbox1" class="checkbox_label">Label</label>
+    </div>
+  </div>
+
+  <!-- радио -->
+  <div class="gridcontainer onerow">
+    <h1 id="title">Radio</h1>
+    <div id="item1">
+      <form>
+        <input type="radio" class="radio small move" id="radio1" name="radio1">
+        <label for="radio1" class="checkbox_label">Label</label>
+        <br>
+        <input type="radio" class="radio small move" id="radio1a" name="radio1">
+        <label for="radio1a" class="checkbox_label">Label</label>
+        <br>
+        <input type="radio" class="radio small move" id="radio1b" name="radio1">
+        <label for="radio1b" class="checkbox_label">Label</label>
+      </form>
+    </div>
+  </div>
+
+<!-- скролл -->
+  <div class="gridcontainer onerow">
+    <h1 id="title">Scroll</h1>
+    <div id="item1" class="scroll_wrapper">
+      <div class="scroll_box">
+        <div class="scroll_thumb small move"></div>
+      </div>
+      <div class="scroll_buttons">
+        <div class="scroll_prev small move"></div>
+        <div class="scroll_next small move"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- списки -->
+  <div class="gridcontainer fiverows">
+    <h1 id="title">Lists</h1>
+      <div class="block black" id="item1">
+        <form class="list">
+          <input type="radio" id="radio2a" name="radio2">
+          <label for="radio2a" class="list_item">Пополнить счёт</label>
+          <br>
+          <input type="radio" id="radio2b" name="radio2">
+          <label for="radio2b" class="list_item">Привязанная карта *4180</label>
+          <br>
+          <input type="radio" id="radio2c" name="radio2" checked="checked">
+          <label for="radio2c" class="list_item">Личные данные</label>
+          <br>
+          <input type="radio" id="radio2d" name="radio2">
+          <label for="radio2d" class="list_item">Параметры входа</label>
+          <br>
+          <input type="radio" id="radio2e" name="radio2">
+          <label for="radio2e" class="list_item">Безопасность</label>
+          <br>
+          <input type="radio" id="radio2f" name="radio2">
+          <label for="radio2f" class="list_item">Коды</label>
+          <br>
+          <input type="radio" id="radio2g" name="radio2">
+          <label for="radio2g" class="list_item">Подарочные сертификаты</label>
+          <br>
+          <input type="radio" id="radio2h" name="radio2">
+          <label for="radio2h" class="list_item">История и активность</label>
+          <br>
+          <input type="radio" id="radio2i" name="radio2">
+          <label for="radio2i" class="list_item">Юридическая информация</label>
+          <br>
+          <input type="radio" id="radio2j" name="radio2">
+          <label for="radio2j" class="list_item">Настройки</label>
+          <br>
+          <input type="radio" id="radio2k" name="radio2">
+          <label for="radio2k" class="list_item">Выйти</label>
+        </form>
+      </div>
+      <div class="block white" id="item2">
+        <form class="list">
+          <input type="radio" id="radio3a" name="radio3">
+          <label for="radio3a" class="list_item">Пополнить счёт</label>
+          <br>
+          <input type="radio" id="radio3b" name="radio3">
+          <label for="radio3b" class="list_item">Привязанная карта *4180</label>
+          <br>
+          <input type="radio" id="radio3c" name="radio3" checked="checked">
+          <label for="radio3c" class="list_item">Личные данные</label>
+          <br>
+          <input type="radio" id="radio3d" name="radio3">
+          <label for="radio3d" class="list_item">Параметры входа</label>
+          <br>
+          <input type="radio" id="radio3e" name="radio3">
+          <label for="radio3e" class="list_item">Безопасность</label>
+          <br>
+          <input type="radio" id="radio3f" name="radio3">
+          <label for="radio3f" class="list_item">Коды</label>
+          <br>
+          <input type="radio" id="radio3g" name="radio3">
+          <label for="radio3g" class="list_item">Подарочные сертификаты</label>
+          <br>
+          <input type="radio" id="radio3h" name="radio3">
+          <label for="radio3h" class="list_item">История и активность</label>
+          <br>
+          <input type="radio" id="radio3i" name="radio3">
+          <label for="radio3i" class="list_item">Юридическая информация</label>
+          <br>
+          <input type="radio" id="radio3j" name="radio3">
+          <label for="radio3j" class="list_item">Настройки</label>
+          <br>
+          <input type="radio" id="radio3k" name="radio3">
+          <label for="radio3k" class="list_item">Выйти</label>
+        </form>
+      </div>
+  </div>
+
+  <!-- тултипы -->
+  <div class="gridcontainer onerow">
+    <h1 id="title">Tooltip</h1>
+    <button class="fill small move dontfill" id="item1">Наведи на меня</button>
+    <div class="tooltip tooltip_arrowless medium show" id="item1">
+      Тултип
+    </div>
+  </div>
+
+  <!-- табы -->
+  <div class="gridcontainer onerow">
+    <!-- подчёркивание анимирется джсом scripts/tabs.js -->
+    <h1 id="title">Tabs</h1>
+    <div id="item1" class="tabs_container tabs_container_flag">
+      <input type="radio" id="tab1" name="tabs_1" class="tab_checker small move" checked="checked">
+      <label for="tab1" id="tab1_caption" class="tab_caption small move" onclick="tab_underscore(this);">Вход</label>
+      <input type="radio" id="tab1a" name="tabs_1" class="tab_checker small move">
+      <label for="tab1a" id="tab1a_caption" class="tab_caption small move" onclick="tab_underscore(this);">Регистрация</label>
+      <div class="tab_underscore medium move" id="tab_underscore_1"></div>
+    </div>
+    <div id="item2" class="tabs_container tabs_container_center">
+      <input type="radio" id="tab2" name="tabs_2" class="tab_checker small move" checked="checked">
+      <label for="tab2" id="tab2_caption" class="tab_caption small move" onclick="tab_underscore(this);">Вход</label>
+      <input type="radio" id="tab2a" name="tabs_2" class="tab_checker small move">
+      <label for="tab2a" id="tab2a_caption" class="tab_caption small move" onclick="tab_underscore(this);">Регистрация</label>
+      <div class="tab_underscore medium move" id="tab_underscore_2"></div>
+    </div>
+  </div>
+
+  <!-- карточки -->
+  <div class="gridcontainer fiverows">
+    <h1 id="title">Cards</h1>
+    <div id="item1" class="card product small move">
+      <div class="description">
+        <div class="thumb"></div>
+        <div class="text small move">Убийственный кукри&nbsp;Amok</div>
+        <div class="price">199</div>
+      </div>
+    </div>
+    <div id="item2" class="card premium small move">
+      <div class="description">
+        <div class="thumb"></div>
+        <div class="text">Медленный кач?<br>Купи премиум!<br>×10 опыт!<br>×30 уважение!</div>
+        <div class="price">49</div>
+        <div class="lead">за месяц</div>
+      </div>
+    </div>
+    <div id="item4" class="card install small move">
+      <div class="description small move">
+        <div class="text">Ураганный экшен и&nbsp;тактический шутер в&nbsp;одном флаконе</div>
+      </div>
+      <div class="card_button small move">Установить</div>
+      <div class="background small move"></div>
+    </div>
+    <div id="item7" class="card fastbuy small move">
+      <div class="description small move">
+        <div class="thumb"></div>
+        <div class="text">Убийственный кукри&nbsp;Amok</div>
+        <div class="lead">3&nbsp;дня, для&nbsp;WarhammerPRO</div>
+        <div class="price">100</div>
+      </div>
+      <div class="card_button small move">Купить</div>
+      <div class="fastbuy_pop medium show"></div>
+    </div>
+    <div id="item10" class="card subscription small move">
+      <div class="description small move">
+        <div class="period">1</div>
+        <div class="text">месяц</div>
+        <div class="lead">300₽ в месяц</div>
+        <div class="price">300</div>
+      </div>
+      <div class="card_button small move">Купить</div>
+    </div>
+    <div id="item11" class="card subscription recommended small move">
+      <div class="description small move">
+        <div class="period">1</div>
+        <div class="text">месяц</div>
+        <div class="lead">300₽ в месяц</div>
+        <div class="price">300</div>
+      </div>
+      <div class="card_button small move">Купить</div>
+    </div>
+    <div id="item13" class="card single small move">
+      <div class="description small move">
+        <div class="text">Call of Duty Infinite Warfare</div>
+      </div>
+      <div class="single_pricing">
+        <div class="lead">Action-adventure</div>
+        <div class="price">2999</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- прочее -->
+  <div class="gridcontainer fiverows">
+    <h1 id="title">Misc</h1>
+    <div id="item1" class="help small move">?</div>
+    <form id="item2" class="pagination_container">
+      <input type="radio" class="pagination small move" name="pagination1" checked="true">
+      <input type="radio" class="pagination small move" name="pagination1">
+      <input type="radio" class="pagination small move" name="pagination1">
+      <input type="radio" class="pagination small move" name="pagination1">
+      <input type="radio" class="pagination small move" name="pagination1">
+    </form>
+    <div class="loader" id="item4">
+      <div class="loader_bar">
+        <div class="loader_fill"></div>
+        <div class="loader_glow"></div>
+      </div>
+      <div class="loader_flag"></div>
+    </div>
+    <div class="spinner spinner_l spinner_white" id="item7"></div>
+    <div class="spinner spinner_l spinner_yellow" id="item8"></div>
+    <div class="spinner spinner_s spinner_white" id="item10"></div>
+    <div class="spinner spinner_s spinner_yellow" id="item11"></div>
+  </div>
+
+</html>

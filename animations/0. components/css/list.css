@@ -1,0 +1,88 @@
+.block {
+  width: 300px;
+  padding: 25px;
+}
+
+/* animation presets */
+
+/* list styling */
+
+.list {
+  margin: 0;
+  padding: 0;
+  max-width: 300px;
+  font-size: 15px;
+  letter-spacing: -0.3px;
+  line-height: 20px;
+}
+
+.list > input {
+  display: none;
+}
+
+.list_item {
+  cursor: pointer;
+  padding-left: 15px;
+  height: 35px;
+  box-sizing: border-box;
+  padding-top: 8px;
+  border-radius: 4px;
+  display: inline-block;
+  width: 300px;
+}
+
+.list_item:hover {
+  opacity: 1 !important;
+}
+
+.list_item:active {
+  transition: cubic-bezier(.4,0,.2,1);
+  transition-duration: .1s;
+}
+
+input[type="radio"]:checked + .list_item, input[type="radio"]:checked + .list_item:hover {
+  opacity: 1;
+  cursor: default;
+  transition: cubic-bezier(.4,0,.2,1);
+  transition-duration: .1s;
+}
+
+.black > .list > .list_item {
+  opacity: .5;
+}
+
+.black > .list > .list_item:active {
+  opacity: .8 !important;
+}
+
+.black > .list > .list_item:hover {
+  background-color: rgba(255, 255, 255, .05);
+}
+
+.black > .list > input[type="radio"]:checked + .list_item, .black > .list > input[type="radio"]:checked + .list_item:hover {
+  background-color: #F5B105;
+  color: black;
+}
+
+.white {
+  background-color: #e8e8ec;
+  color: black;
+  left: 50px;
+}
+
+.white > .list > .list_item {
+  opacity: .59;
+}
+
+.white > .list > .list_item:hover {
+  background-color: rgba(0, 0, 0, .04);
+}
+
+.white > .list > .list_item:active {
+  opacity: .65 !important;
+}
+
+.white > .list > input[type="radio"]:checked + .list_item, .white > .list > input[type="radio"]:checked + .list_item:hover {
+  background-color: #F5B105;
+  color: black;
+}

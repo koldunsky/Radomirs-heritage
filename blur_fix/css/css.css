@@ -1,0 +1,29 @@
+body {
+  background-color: #1C1E30;
+  color: white;
+  font-family: GothamPro-Medium;
+  font-weight: 500;
+}
+
+div {
+  display: inline-block;
+}
+
+.default {
+  font-size: 11px;
+  line-height: 15px;
+}
+
+.default:hover {
+  transform: scale(.90);
+}
+
+.fix {
+  font-size: 22px;
+  line-height: 30px;
+  transform: scale(.5);
+}
+
+.fix:hover {
+  transform: scale(.45);
+}

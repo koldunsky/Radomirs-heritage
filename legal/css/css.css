@@ -1,0 +1,50 @@
+html, body {
+  margin: 0;
+}
+
+body {
+  background-color: #1C1E30;
+  color: white;
+  font-family: GothamPro;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.bLicenseText {
+  width: 715px;
+  padding: 65px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 35px;
+  line-height: 40px;
+}
+
+em {
+  font-size: 20px;
+  display: block;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+a {
+  color: #f5b105;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fac704;
+}
+
+a:active {
+  color: #d99e0a;
+}
+
+ul {
+  padding: 0;
+  list-style-type: square;
+}

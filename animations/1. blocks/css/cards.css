@@ -1,0 +1,26 @@
+.card {
+  width: inherit;
+  height: inherit;
+
+  background-color: white;
+  opacity: .5;
+}
+
+.card.hidden {
+  transform-origin: left;
+  transform: rotateY(10deg);
+  pointer-events: none;
+  opacity: 0;
+}
+
+.card_wrap {
+  width: 190px;
+  height: 350px;
+  perspective: 650px;
+  perspective-origin: center;
+  transform-style: preserve-3d;
+
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}

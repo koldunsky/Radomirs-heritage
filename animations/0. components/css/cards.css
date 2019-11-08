@@ -1,0 +1,342 @@
+.card {
+  width: 185px;
+  height: 345px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  text-align: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.description {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thumb {
+  margin-top: 48px;
+  width: 125px;
+  height: 125px;
+  flex-basis: 125px;
+  background-color: white;
+  opacity: .5;
+  margin-bottom: 22px;
+  box-sizing: border-box;
+}
+
+.text {
+  font-size: 13px;
+  letter-spacing: -0.2px;
+  line-height: 20px;
+}
+
+.price {
+  position: absolute;
+  bottom: 30px;
+  font-size: 20px;
+  letter-spacing: -0.4px;
+  line-height: 15px;
+}
+
+.price::after {
+  content: url("../images/rubl.svg");
+  font-size: 20px;
+  letter-spacing: -0.4px;
+  line-height: 15px;
+}
+
+.lead {
+  margin-top: 5px;
+  font-size: 11px;
+  line-height: 15px;
+  color: #8b8b8b;
+}
+
+.price + .lead {
+  margin-top: 0;
+  position: absolute;
+  bottom: 15px;
+}
+
+.card_button {
+  width: 100%;
+  flex-basis: 40px;
+  padding: 10px 0;
+  font-size: 13px;
+  letter-spacing: -0.47px;
+  text-align: center;
+  line-height: 20px;
+  box-sizing: border-box;
+}
+
+/* обычная */
+
+.product {
+  background: linear-gradient(to right, rgba(30,30,39,0.2) 0%,rgba(30,30,39,0.2) 100%);
+  border: 2px solid rgba(255, 255, 255, .1);
+}
+
+.product:hover {
+  background: linear-gradient(to right, rgba(30,30,39,0.2) 0%,rgba(30,30,39,0.2) 100%), linear-gradient(to right, rgba(255,255,255,.05) 0%,rgba(255,255,255,.05) 100%);
+  border-color: rgba(255, 255, 255, .4);
+}
+
+.product:hover > * > .text {
+  color: #f5b105;
+}
+
+.product:active {
+  border-color: transparent;
+  background: linear-gradient(to right, rgba(30,30,39,1) 0%,rgba(30,30,39,1) 100%);
+}
+
+.product:active > * > .text {
+  color: #f5b105;
+}
+
+/* премиум */
+
+.premium {
+  border: 2px solid rgba(245, 177, 5, .5);
+}
+
+.premium:hover {
+  border-color: rgba(245, 177, 5, 1);
+}
+
+.premium:active {
+  opacity: .8;
+}
+
+/* инсталл */
+
+.install {
+  box-shadow: 0 10px 10px rgba(20, 20, 20, .75);
+  padding: 0;
+}
+
+.install > .background {
+  background-image: url("../images/install_bg.png");
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+.install > .description > .text {
+  position: absolute;
+  bottom: 20px;
+  width: calc(100% - 20px);
+  left: 10px;
+}
+
+.install > .card_button {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .2);
+}
+
+.install:hover {
+  box-shadow: 0 15px 20px rgba(20, 20, 20, .75);
+}
+
+.install > .description:hover {
+  background-color: rgba(255, 255, 255, .05);
+}
+
+.install > .card_button:hover {
+  background-color: rgba(255, 255, 255, .05);
+  color: #f5b105;
+}
+
+.card_button:active ~ .background, .description:active ~ .background {
+  opacity: .8;
+}
+
+/* быстрая покупка */
+
+.fastbuy {
+  background: linear-gradient(to right, rgba(30,30,39,0.2) 0%,rgba(30,30,39,0.2) 100%);
+  border: 2px solid rgba(255, 255, 255, .1);
+}
+
+.fastbuy:hover {
+  background: linear-gradient(to right, rgba(30,30,39,0.2) 0%,rgba(30,30,39,0.2) 100%), linear-gradient(to right, rgba(255,255,255,.05) 0%,rgba(255,255,255,.05) 100%);
+  border-color: rgba(255, 255, 255, .4);
+}
+
+.fastbuy > .description {
+  width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.fastbuy > * > .price {
+  bottom: 20px;
+}
+
+.fastbuy > .card_button {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+  border: 2px solid transparent;
+  box-sizing: content-box;
+  width: 100%;
+  flex-basis: 20px;
+  border-radius: 0 0 5px 5px;
+  margin-bottom: -2px;
+}
+
+.fastbuy > .card_button:hover {
+  border: 2px solid white;
+  box-shadow: none;
+}
+
+.fastbuy_pop {
+  width: calc(100% + 4px);
+  height: 0;
+  border-radius: 3px;
+  background-color: pink;
+  position: absolute;
+  bottom: -2px;
+}
+
+.fastbuy > .card_button:active + .fastbuy_pop {
+  bottom: -2;
+  height: 160px;
+}
+
+/* подписка */
+
+.subscription {
+  height: 300px;
+  background: linear-gradient(to right, rgba(30,30,39,0.2) 0%,rgba(30,30,39,0.2) 100%);
+  border: 2px solid rgba(255, 255, 255, .1);
+}
+
+.period {
+  font-size: 35px;
+}
+
+.subscription > * > .price {
+  bottom: 20px;
+}
+
+.subscription > .description {
+  padding-top: 75px;
+}
+
+.subscription > .card_button {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+  border: 2px solid transparent;
+  box-sizing: content-box;
+  width: 100%;
+  flex-basis: 20px;
+  border-radius: 0 0 5px 5px;
+  margin-bottom: -2px;
+  font-size: 15px;
+}
+
+.subscription:hover > .card_button {
+  color: black;
+  background-color: #f5b105;
+  border: 2px solid #f5b105;
+}
+
+.subscription > .card_button:hover {
+  color: black;
+  background-color: #fac704;
+  border: 2px solid #fac704;
+}
+
+.subscription > .card_button:active {
+  color: black;
+  background-color: #D99E0A;
+  border: 2px solid #D99E0A;
+}
+
+.recommended {
+  background-color: white;
+  color: black;
+}
+
+.recommended::before {
+  content: "Рекомендуемый";
+  text-transform: uppercase;
+  font-size: 10px;
+  line-height: 10px;
+  top: 20px;
+  position: absolute;
+}
+
+.recommended:hover::before {
+  opacity: 0;
+}
+
+.recommended > .card_button {
+  box-shadow: none;
+}
+
+.recommended:active {
+  background-color: rgba(255, 255, 255, .8);
+}
+
+.recommended > * > .price::after {
+  content: url("../images/rubl_black.svg")
+}
+
+/* сингл */
+
+.single {
+  height: 345px;
+  overflow: hidden;
+}
+
+.single > .description {
+  background-image: url("../images/install_bg.png");
+  background-size: cover;
+}
+
+.single > * > .text {
+  font-size: 11px;
+  line-height: 15px;
+  bottom: 10px;
+  position: absolute;
+  width: 90px;
+}
+
+.single_pricing {
+  min-height: 85px;
+  color: black;
+  width: 100%;
+  padding-top: 19px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.single_pricing > .price {
+  width: 100%;
+  position: relative;
+  bottom: -1;
+}
+
+.single_pricing > .price::after {
+  content: url("../images/rubl_black.svg")
+}
+
+.single_pricing > .lead {
+  margin: 0 0 5px 0;
+}
+
+.single:hover > .description {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, .05) 0%,rgba(255, 255, 255, .05) 100%), url("../images/install_bg.png");
+}
+
+.single:active {
+  opacity: .8;
+}

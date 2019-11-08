@@ -1,0 +1,58 @@
+
+.scroll_buttons {
+  width: 50px;
+  height: 25px;
+  margin-left: 15px;
+}
+
+.scroll_wrapper {
+  display: flex;
+  margin-right: 25px;
+  justify-self: stretch;
+  align-self: start;
+}
+
+.scroll_box {
+  flex-grow: 1;
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../images/scroll_track.svg");
+  cursor: pointer;
+}
+
+.scroll_thumb {
+  width: 33%;
+  height: 3px;
+  border-radius: 999px;
+  background-color: white;
+}
+
+.scroll_box:hover > .scroll_thumb, .scroll_thumb:hover {
+  height: 7px;
+}
+
+.scroll_next, .scroll_prev {
+  width: 50%;
+  height: 100%;
+  float: left;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+.scroll_next:hover, .scroll_prev:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.scroll_next:active, .scroll_prev:active {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.scroll_next {
+  -webkit-mask-image: url("../images/scroll_next.svg");
+}
+
+.scroll_prev {
+  -webkit-mask-image: url("../images/scroll_prev.svg");
+}

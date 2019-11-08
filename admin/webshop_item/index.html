@@ -1,0 +1,183 @@
+<html>
+    <head>
+        <meta charset="UTF-16">
+        <link rel="stylesheet" href="css.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body onload="onLoad()">
+        <div class="wrapper top">
+        <div class="input">
+            <label for="item_name">Название товара</label>
+            <input placeholder="Введи название товара" class="item_name" id="item_name">
+        </div>
+        <div class="input">
+            <label for="image">Изображение товара</label>
+            <div class="gallery">
+                <img id="image" src="https://ru-mds.4game.com/images/productscreenshots/w533_h325/209_0.png">
+                <div class="thumbs">
+                    <div class="thumb">
+                        <img id="image" src="https://ru-mds.4game.com/images/productscreenshots/w533_h325/209_0.png">
+                    </div>
+                    <div class="thumb empty">
+                        +
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h3>Описание товара</h3>
+            <div class="group-wrap horizontal">
+            <div class="radio horizontal">
+                <input type="radio" name="description" id="description_text" checked>
+                <label for="description_text">Текстовое описание</label>
+            </div>
+            <div class="radio horizontal">
+                <input type="radio" name="description" id="description_props" disabled>
+                <label for="description_props">Таблица характеристик</label>
+            </div>
+            </div>
+            <textarea placeholder="Опиши товар парой предложений" id="description"></textarea>
+        </div>
+        </div>
+
+        <div class="wrapper bottom">
+            <h2>Версии товара</h2>
+
+
+            <div class="tabs">
+                <button id="version_0_tab" class="active" onclick="switch_0()">Версия 1</button>
+                <button id="version_1_tab" class="hidden" onclick="switch_1()">Версия 2</button>
+                <button id="version_add" onClick="addVersion()">Добавить версию</button>
+            </div>
+
+
+
+            <div id="versions">
+                <div class="version" id="version_0">
+                    <div class="input">
+                        <label for="version_0_name">Название версии</label>
+                        <input placeholder="Введи название товара" value="Версия 1" id="version_0_name">
+                        <span>Название версии будет видно в панели покупки</span>
+                    </div>
+                    <div class="group-wrap horizontal">
+                        <div class="input mandatory">
+                            <label for="version_0_itemId">Внутриигровой ID</label>
+                            <input type="number" placeholder="000000" id="version_0_itemId" min="0">
+                        </div>
+                        <div class="input">
+                            <label for="version_0_itemAmount">Количество товара в покупке</label>
+                            <input type="number" placeholder="1" value="1" min="1" id="version_0_itemAmount">
+                        </div>
+                    </div>
+                    <div class="group-wrap horizontal">
+                        <div class="input mandatory">
+                            <label for="version_0_price">Цена, ₽</label>
+                            <input type="number" id="version_0_price" placeholder="xxxxxx">
+                        </div>
+                        <div class="input">
+                            <label for="version_0_discount">Скидка, ₽</label>
+                            <input placeholder="0" min="0" id="version_0_discount" value="0">
+                            <span>Добавь % для скидки в процентах</span>
+                        </div>
+                    </div>
+                    <div class="group-wrap vertical">
+                        <div class="radio vertical timed">
+                            <input type="checkbox" id="version_0_timed" class="timed">
+                            <label for="version_0_timed">Таймер спецакции</label>
+                            <div class="group-wrap horizontal">
+                                <div class="input">
+                                    <label>Начало показа</label>
+                                    <input id="version_0_timedFrom" placeholder="dd/mm/yyyy, hh:mm">
+                                </div>
+                                <div class="input mandatory">
+                                    <label>Конец показа</label>
+                                    <input id="version_0_timedTo" placeholder="dd/mm/yyyy, hh:mm">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="radio vertical">
+                            <input type="checkbox" id="version_0_visible">
+                            <label for="version_0_visible">Видно игрокам</label>
+                        </div>
+                        <div class="radio vertical">
+                            <input type="checkbox" id="version_0_giftable">
+                            <label for="version_0_giftable">Можно дарить</label>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div>
+                            <button class="primary" onclick="save_0()">Сохранить изменения</button>
+                            <button onclick="clear_0()">Отменить изменения</button>
+                        </div>
+                    </div> 
+                </div>
+
+
+
+
+
+                <div class="version hidden" id="version_1">
+                    <div class="input">
+                        <label for="version_1_name">Название версии</label>
+                        <input placeholder="Версия 2" id="version_1_name" value="Версия 2">
+                        <span>Название версии будет видно в панели покупки</span>
+                    </div>
+                    <div class="group-wrap horizontal">
+                        <div class="input mandatory">
+                            <label for="version_1_itemId">Внутриигровой ID</label>
+                            <input type="number" placeholder="000000" id="version_1_itemId" min="0">
+                        </div>
+                        <div class="input">
+                            <label for="version_1_itemAmount">Количество товара</label>
+                            <input type="number" placeholder="1" min="1" id="version_1_itemAmount">
+                        </div>
+                    </div>
+                    <div class="group-wrap horizontal">
+                        <div class="input mandatory">
+                            <label for="version_1_price">Цена, ₽</label>
+                            <input type="number" id="version_1_price" placeholder="xxxxxx">
+                        </div>
+                        <div class="input">
+                            <label for="version_1_discount">Скидка, ₽</label>
+                            <input placeholder="0" min="0" id="version_1_discount" value="0">
+                            <span>Добавь % для скидки в процентах</span>
+                        </div>
+                    </div>
+                    <div class="group-wrap vertical">
+                        <div class="radio vertical timed">
+                            <input type="checkbox" id="version_1_timed" class="timed">
+                            <label for="version_1_timed">Таймер спецакции</label>
+                            <div class="group-wrap horizontal">
+                                <div class="input">
+                                    <label>Начало показа</label>
+                                    <input id="version_1_timedFrom" placeholder="dd/mm/yyyy, hh:mm">
+                                </div>
+                                <div class="input mandatory">
+                                    <label>Конец показа</label>
+                                    <input id="version_1_timedTo" placeholder="dd/mm/yyyy, hh:mm">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="radio vertical">
+                            <input type="checkbox" id="version_1_visible">
+                            <label for="version_1_visible">Видно игрокам</label>
+                        </div>
+                        <div class="radio vertical">
+                            <input type="checkbox" id="version_1_giftable">
+                            <label for="version_1_giftable">Можно дарить</label>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div>
+                            <button class="primary" onclick="save_1()">Сохранить изменения</button>
+                            <button onclick="clear_1()">Отменить изменения</button>
+                        </div>
+                        <button class="delete" onclick="deleteVersion()">Удалить версию</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

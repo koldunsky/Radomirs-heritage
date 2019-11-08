@@ -1,0 +1,58 @@
+.titlebar {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.titlebar > * > a {
+  width: 40px;
+  height: 30px;
+  float: left;
+  opacity: .5;
+}
+
+.titlebar > * > a:hover {
+  opacity: 1;
+  background-color: rgba(255, 255, 255, .05);
+}
+
+.titlebar > * > a:active {
+  background-color: transparent;
+  opacity: .8;
+}
+
+.titlebar > * > .disabled, .titlebar > * > .disabled:hover {
+  background-color: none;
+  opacity: .2;
+}
+
+.titlebar > * > .back {
+  background-image: url("../images/titlebar/back.svg");
+}
+
+.titlebar > * > .fwd {
+  background-image: url("../images/titlebar/fwd.svg");
+}
+
+.titlebar > * > .min {
+  background-image: url("../images/titlebar/min.svg");
+}
+
+.titlebar > * > .max {
+  background-image: url("../images/titlebar/max.svg");
+}
+
+.titlebar > * > .close {
+  background-image: url("../images/titlebar/close.svg");
+}
+
+.titlebar > * > .close:hover {
+  background-color: #EA4C25;
+  -webkit-mask-image: url("../images/titlebar/close_hover.svg");
+  background-image: none;
+}
+
+.titlebar > * > .close:hover:active {
+}

@@ -1,0 +1,49 @@
+.tabs_container {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.tabs_container_flag {
+  justify-content: start;
+}
+
+.tabs_container_center {
+  justify-content: space-evenly;
+}
+
+.tab_checker {
+  display: none;
+}
+
+.tab_caption {
+  opacity: 0.5;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-weight: 500;
+  font-size: 10px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  line-height: 40px;
+  text-transform: uppercase;
+  float: left;
+}
+
+.tabs_container_flag > .tab_caption{
+  margin-right: 20px;
+}
+
+.tab_checker:checked + .tab_caption {
+  opacity: .8;
+}
+
+.tab_underscore {
+  height: 2px;
+  background-color: white;
+  opacity: .8;
+  position: absolute;
+  bottom: 0;
+}
+
+.tab_caption:hover, .tab_caption:hover ~ .tab_underscore {
+  opacity: 1 !important;
+}

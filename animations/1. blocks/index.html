@@ -1,0 +1,120 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/css.css">
+  <link rel="stylesheet" type="text/css" href="css/grid_elements.css">
+  <link rel="stylesheet" type="text/css" href="css/animations.css">
+
+  <link rel="stylesheet" type="text/css" href="css/mmo.css">
+  <link rel="stylesheet" type="text/css" href="css/banner.css">
+  <link rel="stylesheet" type="text/css" href="css/cards.css">
+  <link rel="stylesheet" type="text/css" href="css/content.css">
+
+  <link rel="stylesheet" type="text/css" href="../components/css/button.css">
+
+  <script src="scripts/main.js" type="text/javascript"></script>
+  <script src="scripts/cards.js" type="text/javascript"></script>
+  <script src="scripts/content.js" type="text/javascript"></script>
+</head>
+
+<body onload="">
+  <!-- баннерокрутилка -->
+  <div class="gridcontainer">
+    <h1 id="title">Banner</h1>
+      <div class="banner_wrapper" id="item">
+        <div class="banner_control small move" id="banner_back"></div>
+        <div class="banner_container" id="banner_container">
+          <div class="banner" id="banner0"></div>
+          <div class="banner" id="banner1"></div>
+          <div class="banner" id="banner2"></div>
+          <div class="banner" id="banner3"></div>
+          <div class="banner" id="banner4"></div>
+          <div class="banner" id="banner5"></div>
+          <div class="banner" id="banner6"></div>
+        </div>
+        <div class="banner_control banner_fwd small move" id="banner_forward"></div>
+        <form class="banner_pagination">
+          <input type="radio" id="pagination1" class="pagination small move" name="pagination1" checked="true">
+          <input type="radio" id="pagination2" class="pagination small move" name="pagination1">
+          <input type="radio" id="pagination3" class="pagination small move" name="pagination1">
+          <input type="radio" id="pagination4" class="pagination small move" name="pagination1">
+          <input type="radio" id="pagination5" class="pagination small move" name="pagination1">
+        </form>
+      </div>
+  </div>
+
+  <!-- ММО панель -->
+  <div class="gridcontainer">
+    <h1 id="title">MMO</h1>
+      <div class="mmo_grid" id="item">
+        <div class="item1 plate medium move"></div>
+        <div class="item2 plate medium move"></div>
+        <div class="item3 plate medium move"></div>
+        <div class="item4 plate medium move"></div>
+        <div class="item5 plate medium move"></div>
+        <div class="item6 plate medium move"></div>
+        <div class="item7 plate medium move"></div>
+        <div class="item8 plate medium move"></div>
+        <div class="item9 plate medium move"></div>
+      </div>
+  </div>
+
+  <!-- Карточные вью -->
+  <div class="gridcontainer">
+    <h1 id="title">Card view <button class="border small move" style="margin-left: 10px;" onclick="toggle_cards();">Reveal</button></h1>
+      <div class="card_view" id="item1">
+        <div class="card_wrap">
+          <div class="card hidden medium hide"></div>
+        </div>
+        <div class="card_wrap">
+          <div class="card hidden medium hide"></div>
+        </div>
+        <div class="card_wrap">
+          <div class="card hidden medium hide"></div>
+        </div>
+        <div class="card_wrap">
+          <div class="card hidden medium hide"></div>
+        </div>
+        <div class="card_wrap">
+          <div class="card hidden medium hide"></div>
+        </div>
+        <div class="card_wrap">
+          <div class="card hidden medium hide"></div>
+        </div>
+        <div class="card_wrap">
+          <div class="card hidden medium hide"></div>
+        </div>
+        <div class="card_wrap">
+          <div class="card hidden medium hide"></div>
+        </div>
+        <div class="card_wrap">
+          <div class="card hidden medium hide"></div>
+        </div>
+      </div>
+  </div>
+
+  <!-- замена контента -->
+  <div class="gridcontainer">
+    <h1 id="title">Content swap <button class="border small move" style="margin-left: 10px;" onclick="toggle_content();">Swap</button></h1>
+    <div class="content_swap_wrapper" id="item1">
+      <div class="content_swap content_1 large show"></div>
+      <div class="content_swap content_2 large hide hidden"></div>
+    </div>
+  </div>
+
+  <!-- взаимодействие контента -->
+  <div class="gridcontainer">
+    <h1 id="title">Content interaction <button class="border small move" style="margin-left: 10px;" onclick="content_interaction();">Swap</button></h1>
+      <div class="content_interaction" id="item1">
+        <div class="content_card_wrap medium move">
+          <div class="content_card medium move"></div>
+        </div>
+        <div class="content_card_wrap medium hide hidden" id="toggable">
+          <div class="content_card hidden medium hide"></div>
+        </div>
+        <div class="content_card_wrap medium move">
+          <div class="content_card medium move"></div>
+        </div>
+      </div>
+  </div>
+</html>

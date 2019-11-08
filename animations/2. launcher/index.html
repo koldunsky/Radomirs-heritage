@@ -1,0 +1,106 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/generic.css">
+  <link rel="stylesheet" type="text/css" href="css/header.css">
+  <link rel="stylesheet" type="text/css" href="css/content.css">
+
+
+  <link rel="stylesheet" type="text/css" href="css/animations.css">
+  <!-- <script src="js/generic.js" type="text/javascript"></script> -->
+  <script src="js/content.js" type="text/javascript"></script>
+  <script>
+    function resizeIframe(obj) {
+      obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+    }
+  </script>
+</head>
+
+<body>
+  <div class="header">
+
+    <div class="titlebar">
+      <div class="history">
+        <a class="back small move" onclick="window.history.back();"></a>
+        <a class="fwd disabled"></a>
+      </div>
+      <div class="window">
+        <a class="min small move"></a>
+        <a class="max small move"></a>
+        <a class="close small move"></a>
+      </div>
+    </div>
+
+    <div class="tools">
+      <div class="games">
+        <ol>
+          <li class="dso small move"></li>
+          <li class="pblank small move"></li>
+          <li class="single small move"></li>
+          <li class="more small move"></li>
+        </ol>
+      </div>
+
+      <div class="account">
+        <button class="user small move" id="user" onclick="toggle_profile();">radomir.kupfer</button>
+        <button class="wallet small move">150</button>
+        <button class="notifications small move"></button>
+      </div>
+    </div>
+
+    <div class="menu">
+      <div class="element small move active">
+        <div id="fogame" class="icon"></div>
+        <label for="fogame" class="caption">Фогейм</label>
+      </div>
+      <div class="element small move" id="mmo_hub">
+        <div id="mmo" class="icon"></div>
+        <label for="mmo" class="caption">Все MMO</label>
+      </div>
+      <div class="tooltip">
+        <div class="tooltip_arrow"></div>
+        <ul>
+          <li class="small move">RF Online</li>
+          <li class="small move">F2 Online</li>
+          <li class="small move">Lineage 2</li>
+          <li class="small move">Point Blank</li>
+          <li class="small move">Aion</li>
+          <li class="small move">Blade & Soul</li>
+          <li class="small move">Drakensang Online</li>
+          <li class="small move">Lineage 2 Classic</li>
+          <li class="small move">Kingdom Under Fire 2</li>
+        </ul>
+      </div>
+      <div class="element small move" onclick="toggle_toast();">
+        <div id="singles" class="icon"></div>
+        <label for="singles" class="caption">Тост</label>
+      </div>
+      <div class="element small move">
+        <div id="shop" class="icon"></div>
+        <label for="shop" class="caption">Магазин</label>
+      </div>
+      <div class="element small move" onclick="toggle_overlay();">
+        <div id="support" class="icon"></div>
+        <label for="support" class="caption">Оверлей</label>
+      </div>
+    </div>
+
+    <div class="toast hidden medium hide" id="toast">Восстанавливаем соединение</div>
+  </div>
+
+  <div class="overlay_wrapper" id="overlay_wrapper">
+
+    <div class="paranja large hide" id="paranja" onclick="toggle_profile();"></div>
+    <div class="profile large hide" id="profile"></div>
+
+    <div class="overlay large hidden hide" id="overlay"></div>
+    <div class="overlay_button hidden medium hide" onclick="toggle_overlay();" id="overlay_button"></div>
+  </div>
+
+  <div class="content large hide" id="content">
+    <div class="mmo_injection">
+        <iframe src="elements/content/mmo/" frameborder="0" scrolling="no" onload="resizeIframe(this);" id="iframe"></iframe>
+    </div>
+  </div>
+</body>
+</html>

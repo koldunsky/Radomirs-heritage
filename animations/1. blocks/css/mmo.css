@@ -1,0 +1,81 @@
+.mmo_grid {
+  display: grid;
+  grid-template-columns: repeat(24, 1fr);
+  grid-column-gap: 15px;
+  grid-template-rows: 300px 225px 225px;
+  grid-row-gap: 15px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1185px;
+}
+
+.plate {
+  /* background-color: white; */
+  box-shadow: 0 10px 10px -10px rgba(0,0,0,0.75);
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.plate:hover {
+  transform: scale(.99);
+}
+
+.plate:active {
+  transform: scale(.98);
+}
+
+.item1 {
+  grid-column: 1 / 15;
+  grid-row: 1 / 2;
+  background-image: url(../images/mmo/item1.png);
+}
+
+.item2 {
+  grid-column: 15 / 25;
+  grid-row: 1 / 2;
+  background-image: url(../images/mmo/item2.png);
+}
+
+.item3 {
+  grid-column: 1 / 9;
+  grid-row: 2 / 3;
+  background-image: url(../images/mmo/item3.png);
+}
+
+.item4 {
+  grid-column: 9 / 17;
+  grid-row: 2 / 3;
+  background-image: url(../images/mmo/item4.png);
+}
+
+.item5 {
+  grid-column: 17 / 25;
+  grid-row: 2 / 3;
+  background-image: url(../images/mmo/item5.png);
+}
+
+.item6 {
+  grid-column: 1 / 7;
+  grid-row: 3 / 4;
+  background-image: url(../images/mmo/item6.png);
+}
+
+.item7 {
+  grid-column: 7 / 13;
+  grid-row: 3 / 4;
+  background-image: url(../images/mmo/item7.png);
+}
+
+.item8 {
+  grid-column: 13 / 19;
+  grid-row: 3 / 4;
+  background-image: url(../images/mmo/item8.png);
+}
+
+.item9 {
+  grid-column: 19 / 25;
+  grid-row: 3 / 4;
+  background-image: url(../images/mmo/item9.png);
+}

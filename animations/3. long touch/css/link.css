@@ -1,0 +1,32 @@
+/* general */
+
+a {
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 20px;
+  color: red;
+  background-color: blue;
+  letter-spacing: -0.26px;
+  justify-self: start;
+  display: inline;
+  cursor: pointer;
+
+  font-family: Gotham;
+  font-weight: 500;
+
+  position: relative;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  overflow: hidden;
+  -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+
+}
+
+a:hover {
+  color: #FAC704;
+}
+
+a:active {
+  color: #D99E0A;
+}

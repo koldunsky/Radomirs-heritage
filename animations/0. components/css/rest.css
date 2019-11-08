@@ -1,0 +1,129 @@
+.help {
+  width: 18px;
+  height: 15px;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-weight: 500;
+  font-size: 11px;
+  color: #FFFFFF;
+  line-height: 15px;
+  text-align: center;
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, .2);
+  padding-top: 3px;
+}
+
+.help:hover {
+  color: black;
+  background-color: rgba(255, 255, 255, 1);
+  cursor: help;
+}
+
+input.pagination {
+  width: 15px;
+  height: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  -webkit-mask-image: url(../images/dot.svg);
+  -webkit-mask-position: center;
+  padding: 0px;
+  margin: 0;
+  -webkit-appearance: none;
+  float: left;
+  cursor: pointer;
+}
+
+input.pagination:checked {
+  background-color: rgba(255, 255, 255, 1);
+  transform: scale(1.33);
+}
+
+input.pagination:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  transform: scale(1.33);
+}
+
+input.pagination:checked:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+.spinner {
+  animation-name: rotate;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.spinner_l {
+  width: 55px;
+  height: 55px;
+  -webkit-mask-image: url("../images/spinner_l.svg");
+}
+
+.spinner_s {
+  width: 35px;
+  height: 35px;
+  -webkit-mask-image: url("../images/spinner_s.svg");
+}
+
+.spinner_white {
+  background-color: white;
+}
+
+.spinner_yellow {
+  background-color: #F5B105;
+}
+
+.loader {
+  height: 45px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+@keyframes loading {
+    from {background-position: 0;}
+    to {background-position: -10px;}
+}
+
+.loader_bar {
+  animation-name: loading;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  width: 300px;
+  height: 2px;
+  background-color: rgba(255,255,255,.2);
+  background-image: url("../images/loader_segment.svg");
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+}
+
+.loader_fill {
+  width: 33%;
+  height: 100%;
+  background-color: #F5B105;
+  border-radius: 2px;
+  float: left;
+}
+
+.loader_glow {
+  width: 53px;
+  height: 28px;
+  background-image: url("../images/loader_glow.svg");
+  float: left;
+  left: -42px;
+}
+
+.loader_flag {
+  width: 10px;
+  height: 30px;
+  background-image: url("../images/loader_flag.svg");
+  left: 25%;
+  position: absolute;
+  background-repeat: no-repeat;
+}

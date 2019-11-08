@@ -1,0 +1,416 @@
+.header {
+  box-sizing: border-box;
+  width: 100vw;
+  background-color: rgba(30, 30, 45, .9);
+  height: 75px;
+  padding: 0 5px 10px 5px;
+  position: fixed;
+  z-index: 999;
+}
+
+/* window controls */
+
+.titlebar {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.titlebar > * > a {
+  width: 40px;
+  height: 30px;
+  float: left;
+  opacity: .5;
+}
+
+.titlebar > * > a:hover {
+  opacity: 1;
+  background-color: rgba(255, 255, 255, .05);
+}
+
+.titlebar > * > a:active {
+  background-color: transparent;
+  opacity: .8;
+}
+
+.titlebar > * > .disabled, .titlebar > * > .disabled:hover {
+  background-color: none;
+  opacity: .2;
+}
+
+.titlebar > * > .back {
+  background-image: url("../images/titlebar/back.svg");
+}
+
+.titlebar > * > .fwd {
+  background-image: url("../images/titlebar/fwd.svg");
+}
+
+.titlebar > * > .min {
+  background-image: url("../images/titlebar/min.svg");
+}
+
+.titlebar > * > .max {
+  background-image: url("../images/titlebar/max.svg");
+}
+
+.titlebar > * > .close {
+  background-image: url("../images/titlebar/close.svg");
+}
+
+.titlebar > * > .close:hover {
+  background-color: #EA4C25;
+  -webkit-mask-image: url("../images/titlebar/close_hover.svg");
+  background-image: none;
+}
+
+.titlebar > * > .close:hover:active {
+}
+
+/* toolbar */
+
+.tools {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* games */
+
+.games > ol {
+  margin: 0 0 0 10px;
+  height: 35px;
+  padding: 0;
+}
+
+.games > * > li {
+  width: 35px;
+  height: 35px;
+  background-image: url("../images/placeholder.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  opacity: .5;
+  float: left;
+}
+
+.games > * > li:hover {
+  opacity: 1;
+  /* background-color: rgba(255, 255, 255, 0.05); */
+}
+
+.games > * > li:active {
+  opacity: .8;
+}
+
+.games > * > .kuf {
+  background-image: url("../images/games/kuf.svg");
+}
+
+.games > * > .dso {
+  background-image: url("../images/games/dso.svg");
+}
+
+.games > * > .pblank {
+  background-image: url("../images/games/pb.svg");
+}
+
+.games > * > .single {
+  background-image: url("../images/games/single.png");
+}
+
+.games > * > .more {
+  margin-left: 10px;
+  background-image: url("../images/games/more.svg");
+}
+
+/* account */
+
+.account {
+  margin: 0 0 0 5px;
+  height: 35px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.account > button {
+  height: 35px;
+  float: left;
+  padding: 2px 10px 0 10px;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-weight: 500;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 15px;
+  position: relative;
+  min-width: 40px;
+}
+
+.account > button:hover {
+  /* background-color: rgba(255, 255, 255, 0.05); */
+  color: rgba(255, 255, 255, 1);
+}
+
+.account > button:active {
+  background-color: transparent;
+  opacity: .8;
+}
+
+.account > .user {
+  padding-left: 45px;
+}
+
+.account > .user::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  border-radius: 999px;
+  position: absolute;
+  margin-top: -6px;
+  margin-left: -35px;
+  background-image: url("../images/tools/user.png");
+  background-size: cover;
+}
+
+.account > .wallet {
+  padding-right: 29px;
+  color: white;
+  opacity: 0.5;
+}
+
+.account > .wallet:hover {
+  opacity: 1;
+}
+
+.account > .wallet:active {
+  opacity: .8;
+}
+
+.account > .wallet::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  background-image: url("../images/tools/wallet.svg");
+  margin-top: -1px;
+  margin-left: 4px;
+}
+
+.account > .notifications {
+  background-image: url("../images/tools/notifications.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: .5;
+}
+
+.account > .notifications:hover {
+  opacity: 1;
+}
+
+.account > .notifications:active {
+  opacity: .8;
+}
+
+/* menu */
+
+.menu {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-weight: 500;
+  font-size: 10px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 15px;
+  height: 65px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: -60px;
+  pointer-events: none;
+}
+
+.menu > * {
+  pointer-events: auto;
+}
+
+.menu > .element {
+  width: 65px;
+  height: 65px;
+  float: left;
+  position: relative;
+  opacity: 0.5;
+}
+
+.menu > .element:hover, .menu > .element.active:hover {
+  opacity: 1;
+  /* background-color: rgba(255, 255, 255, 0.05); */
+}
+
+.menu > .element:active, .menu > .element.active, .menu > .element.active:active {
+  opacity: 0.8;
+  background-color: transparent;
+}
+
+.menu > .element > .icon {
+  width: 100%;
+  height: 25px;
+  position: absolute;
+  top: 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.menu > .element > label {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 9px;
+}
+
+.menu > .element > .icon#fogame {
+  background-image: url("../images/menu/4game.svg");
+}
+
+.menu > .element > .icon#mmo {
+  background-image: url("../images/menu/mmo.svg");
+}
+
+.menu > .element > .icon#mmo::after {
+  content: "";
+  width: 9px;
+  height: 6px;
+  background-image: url("../images/rest/unwrap_arrow.svg");
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  margin-top: -3px;
+  transition: all .1s cubic-bezier(0.48, 0, 0.52, 1);
+  transform-origin: center;
+}
+
+.menu > .element:hover > .icon#mmo::after {
+  transform: rotate(+180deg);
+}
+
+.menu > .element > .icon#singles {
+  background-image: url("../images/menu/singles.svg");
+}
+
+.menu > .element > .icon#shop {
+  background-image: url("../images/menu/shop.svg");
+}
+
+.menu > .element > .icon#support {
+  background-image: url("../images/menu/support.svg");
+}
+
+/* tooltip */
+
+.tooltip {
+  width: 200px;
+  background-color: white;
+  padding: 20px 0;
+  margin-top: 10px;
+  top: 55px;
+  left: 50%;
+  margin-left: -115px;
+  position: absolute;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-weight: 500;
+  font-size: 13px;
+  color: black;
+  letter-spacing: -0.25px;
+  line-height: 30px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all .25s cubic-bezier(0.42, 0, 0.58, 1);
+  flex-direction: column;
+  align-items: center;
+}
+
+.tooltip > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tooltip > ul > li {
+  cursor: pointer;
+  padding-left: 25px;
+  height: 30px;
+  opacity: 1;
+  box-sizing: border-box;
+}
+
+.tooltip > ul > li:hover {
+  /* color: white; */
+  background-color: #ebae00;
+  opacity: 1;
+}
+
+.tooltip > ul > li:active {
+  opacity: .8;
+}
+
+.element:hover + .tooltip {
+  top: 60px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.tooltip:hover {
+  transition: all .25s cubic-bezier(0.42, 0, 0.58, 1);
+  top: 60px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.tooltip > .tooltip_arrow {
+  width: 34px;
+  height: 20px;
+  background-color: white;
+  -webkit-mask-image: url("../images/rest/tooltip_arrow.svg");
+  position: absolute;
+  top:-10px;
+  left: 32.5px;
+}
+
+.toast {
+  position: relative;
+  height: 35px;
+  width: 283px;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, .5);
+  padding: 0 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-weight: 500;
+  font-size: 11px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 15px;
+  box-sizing: border-box;
+  white-space: nowrap;
+  top: 15px;
+  margin: 0 auto;
+  pointer-events: none;
+}
+
+.toast.hidden {
+  top: 10px;
+  opacity: 0;
+}
+
+.toast::before {
+  content: "";
+  width: 61px;
+  height: 7px;
+  background-image: url("../images/icons_no_internet_1px.svg");
+  margin-right: 10px;
+  margin-top: -2px;
+}
