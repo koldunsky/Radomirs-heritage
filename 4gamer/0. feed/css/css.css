@@ -1,0 +1,136 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  margin: 0;
+  color: rgba(255, 255, 255, .2);
+  font-family: Gotham;
+  color: black;
+}
+
+h1 {
+  margin: 0;
+}
+
+.feed {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 60px;
+  grid-template-columns: 300px 300px 300px 300px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1260px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.snippet {
+  width: 300px;
+  position: relative;
+}
+
+.themes {
+  position: absolute;
+  top: 10px;
+  margin-left: -10px;
+}
+
+.theme {
+  margin-bottom: 10px;
+  background-color: #4FC129;
+  padding: 5px 22px 5px 10px;
+  font-size: 13px;
+  color: black;
+  line-height: 20px;
+  text-transform: uppercase;
+  -webkit-mask-image: url("../images/theme_mask.svg");
+  -webkit-mask-position: right;
+  display: none;
+  font-weight: 500;
+  border-radius: 5px 0 0 5px;
+}
+
+.phat {
+  background-color: #F8E71C;
+  display: table;
+}
+
+.showtime {
+  display: table;
+}
+
+.thumb {
+  width: 75%;
+  padding-top: calc(75% / 16 * 9);
+  background-color: white;
+  margin-bottom: 15px;
+  background-size: cover;
+  background-position: center;
+  transition: .4s;
+  transform-origin: top left;
+  z-index: -999;
+  transform: scale(1.01);
+  border-radius: 4px;
+}
+
+.snippet:hover > .thumb {
+  transform: scale(1.33);
+  z-index: -999;
+}
+
+.snippet:hover {
+  color: red;
+}
+
+.type {
+  font-size: 13px;
+  line-height: 15px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-weight: 500;
+}
+
+.title {
+  font-size: 25px;
+  line-height: 1;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.lead {
+  width: 75%;
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: Open Sans;
+}
+
+.contols_wrapper {
+  width: 300px;
+  background-color: rgba(18, 18, 28, 0.8);
+  top: 30px;
+  right: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: fixed;
+}
+
+input {
+  display: none;
+}
+
+label {
+  margin: 0 15px 0 15px;
+  display: block;
+}
+
+input:checked + label {
+  background-color: white;
+  color: black;
+}

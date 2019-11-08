@@ -1,0 +1,58 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/css.css">
+  <link rel="stylesheet" type="text/css" href="css/polaroid.css">
+  <link rel="stylesheet" type="text/css" href="css/photo.css">
+
+  <link rel="stylesheet" type="text/css" href="css/gotham.css">
+
+  <script src="scripts/main.js" type="text/javascript"></script>
+</head>
+
+<body onload="onLoad()">
+  <div class="contols_wrapper">
+    <h1>Формат</h1>
+    <input type="checkbox" id="top">
+    <label for="top" onclick="theme_top()">Тема сверху</label>
+    <h2>Полароид</h2>
+    <input type="checkbox" id="centered">
+    <label for="centered" onclick="theme_center()">Тема слева</label>
+    <br><br>
+    <ul>
+      <li>
+        <input type="radio" name="class" id="polaroid-square_photo">
+        <label for="polaroid-square_photo" onclick="switch_layout(this)">1×1 Фото</label>
+      </li>
+      <li>
+        <input type="radio" name="class" id="polaroid-square_card">
+        <label for="polaroid-square_card" onclick="switch_layout(this)">1×1 Карточка</label>
+      </li>
+      <li>
+        <input type="radio" name="class" id="polaroid-wide">
+        <label for="polaroid-wide" onclick="switch_layout(this)">16×9 Фото</label>
+      </li>
+    </ul>
+    <h2>Квадратная фотка</h2>
+    <ul>
+      <li>
+        <input type="radio" name="class" id="square-overlay" checked>
+        <label for="square-overlay" onclick="switch_layout(this)">На фотке</label>
+      </li>
+      <li>
+        <input type="radio" name="class" id="square-under">
+        <label for="square-under" onclick="switch_layout(this)">Под фоткой</label>
+      </li>
+      <li>
+        <input type="radio" name="class" id="square-plate_white">
+        <label for="square-plate_white" onclick="switch_layout(this)">Белый на подложке</label>
+      </li>
+      <li>
+        <input type="radio" name="class" id="square-plate_gray">
+        <label for="square-plate_gray" onclick="switch_layout(this)">Серый на подложке</label>
+      </li>
+    </ul>
+  </div>
+  <div class="feed square overlay" id="feed">
+  </div>
+</html>

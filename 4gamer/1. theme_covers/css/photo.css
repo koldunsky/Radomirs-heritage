@@ -1,0 +1,55 @@
+.square > .snippet {
+  background-color: transparent;
+}
+
+.square > * > .thumb {
+  width: 100%;
+  padding-top: 100%;
+  /* padding-top: calc(100% / 16 * 9); */
+  background-size: cover;
+  background-position: center;
+}
+
+.square > * > .theme_wrap > .theme {
+  background-color: white;
+  display: inline-block;
+}
+
+/* Квадрат на фотке, square.overlay */
+
+.square.overlay > * > .thumb {
+  opacity: .9;
+}
+
+.square.overlay > * > .theme_wrap > .theme {
+  position: absolute;
+  bottom: 15px;
+  left: -15px;
+  transform-origin: bottom left;
+}
+
+/* Квадрат под, square.under */
+
+.square.under > * > .theme_wrap > .theme {
+  bottom: 10px;
+  transform-origin: top left;
+}
+
+.square.under > .snippet > *:first-child {
+  margin-bottom: 10px;
+}
+
+/* Белый на подложке, square.plate_white */
+
+.square.plate_white > .snippet {
+  background-color: #d8d8d8;
+}
+
+/* Серый на подложке, square.plate_gray */
+
+.square.plate_gray > .snippet {
+  background-color: white;
+}
+.square.plate_gray > * > .theme_wrap > .theme {
+  background-color: rgba(0, 0, 0, .1);
+}

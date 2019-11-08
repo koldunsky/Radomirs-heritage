@@ -1,0 +1,869 @@
+[
+  {
+		"type": "Новость",
+		"title": "Киберспортсмена Overwatch отстранили за связь с несовершеннолетней",
+		"lead": "14-летняя девушка выложила переписку с 21-летним киберспортсменом в Сеть",
+		"picture": "https://cdn.vox-cdn.com/uploads/chorus_image/image/59314839/Jonathan__DreamKazper__Sanchez_3_16_18_.1523231187.jpg",
+    "featured": true,
+		"themes": [{
+			"theme": "Скандал"
+		},{
+			"theme": "Киберспорт"
+		}]
+	},
+  {
+    "type": "Новость",
+    "title": "Осенью Ubisoft откроет новую студию в Виннипеге",
+    "lead": "",
+    "picture": "https://hi-news.ru/wp-content/uploads/2017/06/ubisoft_new_2017_logo_2400.0.jpg",
+    "featured": false,
+    "themes": [{
+      "theme": "Индустрия"
+    }]
+  },
+  {
+    "type": "Новость",
+    "title": "Продюсер Nier: Automata намекнул на сиквел",
+    "lead": "",
+    "picture": "https://cdna.artstation.com/p/assets/images/images/005/102/772/large/qichao-wang-2b-sml.jpg?1488473853",
+    "featured": false,
+    "themes": [{
+      "theme": "Слух"
+    }]
+  },
+  {
+    "type": "Новость",
+    "title": "Создатели нового чемпиона в League of Legends принесли извинения за ее «необоснованно сексуальный» дизайн",
+    "lead": "По словам Riot Games, глубокий вырез Каи’сы «помог отразить ее человеческую природу»",
+    "picture": "https://cdn.mos.cms.futurecdn.net/GKfkXUD3mJeFzLWtQJ5KTk.jpg",
+    "featured": true,
+    "themes": [{
+      "theme": "Киберспорт"
+    }]
+  },
+  {
+    "type": "Новость",
+    "title": "The Forest обрела дату релиза после четырех лет в Steam Early Access",
+    "lead": "",
+    "picture": "http://irecommend.ru/sites/default/files/product-images/166153/shEVP5LUdfLYEX01aZtiOw.png",
+    "featured": false,
+    "themes": [{
+      "theme": "Дата выхода"
+    }]
+  },
+  {
+    "type": "Новость",
+    "title": "Авторы LawBreakers завтра выпустят шутер в жанре «Королевской битвы»",
+    "lead": "Навык «переобувание на ходу» улучшен",
+    "picture": "https://assets1.ignimgs.com/thumbs/userUploaded/2018/4/10/radical-heights-1523401479482.jpg",
+    "featured": true,
+		"themes": [{
+			"theme": "Battle Royale"
+		},
+    {
+			"theme": "Анонс"
+		},
+    {
+			"theme": "Дата выхода"
+		},
+    {
+			"theme": "Видео"
+		}]
+  },
+  {
+    "type": "Новость",
+    "title": "Студия Джей Джей Абрамса займется производством игр",
+    "lead": "",
+    "picture": "https://pmcvariety.files.wordpress.com/2017/03/j-j-abrams-3.jpg?w=1000&h=563&crop=1",
+    "featured": false,
+		"themes": [{
+			"theme": "Кино"
+		},
+    {
+			"theme": "Индустрия"
+		}]
+  },
+  {
+    "type": "Новость",
+    "title": "В Ghost Recon: Wildlands появится главный герой Splinter Cell",
+    "lead": "",
+    "picture": "https://cdn.igromania.ru/mnt/news/c/2/7/e/4/d/74559/994b869ff636c8fd_1200xH.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Кроссовер"},
+      {"theme": "DLC"},
+      {"theme": "Видео"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "Ubisoft подтвердила разработку Watch Dogs 3",
+    "lead": "Вернее, это сделал «искусственный интеллект» компании",
+    "picture": "https://www.gamepur.com/files/images/2016/watch-dogs-3.jpg",
+    "featured": true,
+		"themes": [
+      {"theme": "Анонс"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "Основатель Rockstar проиграл иск на 150 миллионов долларов",
+    "lead": "",
+    "picture": "https://3dnews.ru/assets/external/illustrations/2018/04/10/968220/Leslie_Benzies.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Скандал"},
+      {"theme": "Индустрия"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "В последнем сезоне The Walking Dead будет свободная камера",
+    "lead": "",
+    "picture": "https://vignette.wikia.nocookie.net/walkingdead/images/3/39/TelltaleGames_TWD_Season4.jpg/revision/latest?cb=20180330150708",
+    "featured": false,
+		"themes": [
+      {"theme": "Видео"}
+    ]
+  },
+  {
+    "type": "История",
+    "title": "Скидки дня — 9 апреля",
+    "lead": "Persona 5, The Witcher 3: Blood and Wine, GTA 5 и другие",
+    "picture": "https://coubsecure-s.akamaihd.net/get/b34/p/coub/simple/cw_timeline_pic/0eab27336ff/5a28ecba4bf7a468a9de4/big_1409621640_1381426934_image.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Скидки"}
+    ]
+  },
+  {
+    "type": "История",
+    "title": "Steam-обоз: что геймеры пишут о Far Cry 5",
+    "lead": "«Переехал свою собаку, пока пытался задавить медведя на квадроцикле. 10/10!»",
+    "picture": "https://static.gamespot.com/uploads/scale_super/1552/15524586/3368627-591567f6ca1a6460388b4568-3.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Дичь"},
+      {"theme": "Оценки"}
+    ]
+  },
+  {
+    "type": "Статья",
+    "title": "Рецензия на Far Cry 5",
+    "lead": "Мы здесь городских не любим, приятель. 8/10",
+    "picture": "https://images.greenmangaming.com/4727c4ea3de945beb0a939ab14483863/e2c48171d7e641a0bdd1de5736d1fe30.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Оценки"},
+      {"theme": "Мнение"},
+      {"theme": "Лонгрид"}
+    ]
+  },
+  {
+    "type": "Трансляция",
+    "title": "АААА-новости #67. Сэм Фишер и Спайро возвращаются, LawBreakers уходит в закат",
+    "lead": "",
+    "picture": "https://photos-6.dropbox.com/t/2/AACBYXvyGu5gMvo1DqlM8-AoRm-UUH4Z_4I3h7HQaPXMow/12/167924052/jpeg/32x32/3/1523894400/0/2/Covers-youtube.jpg/EL201vYBGP_NGCAHKAc/8gbkMRcdP3Smxi0Gd0GPm3qtlvfipgwAAVVpMVghUzA?dl=0&size=1280x960&size_mode=3",
+    "featured": false,
+		"themes": [
+      {"theme": "Стриминг"}
+    ]
+  },
+  {
+    "type": "Галерея",
+    "title": "Косплей дня: Мария Сапогова",
+    "lead": "",
+    "picture": "https://sun1-3.userapi.com/c840439/v840439774/6eecd/k1hKkBNr2fI.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Галерея"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "GTA 5 признали самым прибыльным развлекательным продуктом",
+    "lead": "HESOYAM",
+    "picture": "https://rockstargames.su/wp-content/uploads/2017/06/maxresdefault.jpg",
+    "featured": true,
+		"themes": [
+      {"theme": "Индустрия"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "Для Ghost Recon: Wildlands вышло DLC с Сэмом Фишером из Splinter Cell",
+    "lead": "",
+    "picture": "https://static.gamespot.com/uploads/screen_kubrick/123/1239113/3374164-gr.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Кроссовер"},
+      {"theme": "DLC"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "Появился новый трейлер ремастера Dark Souls для PS4",
+    "lead": "",
+    "picture": "https://3dnews.ru/assets/external/illustrations/2018/01/11/963983/DarkSoulsRemastered_screen.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Видео"},
+      {"theme": "Переиздание"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "Южнокорейских разработчиков оштрафовали на миллион долларов за лутбоксы",
+    "lead": "Blizzard, а вы чего побледнели вдруг?",
+    "picture": "https://cdn.vox-cdn.com/uploads/chorus_image/image/59335307/Screenshot_2018_04_10_09.52.03.0.png",
+    "featured": true,
+		"themes": [
+      {"theme": "Монетизация"},
+      {"theme": "Индустрия"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "Из GTA 4 удалят лицензионную музыку",
+    "lead": "Vladivostok FM прекращает вещание",
+    "picture": "http://getwallpapers.com/wallpaper/full/a/5/3/362331.jpg",
+    "featured": true,
+		"themes": [
+      {"theme": "Индустрия"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "Критики разгромили экшен Extinction",
+    "lead": "",
+    "picture": "https://d1u5p3l4wpay3k.cloudfront.net/extinction_gamepedia_en/3/38/SS_2.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Оценки"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "На PS4 вышло второе дополнение для Call of Duty: WW2",
+    "lead": "",
+    "picture": "http://nothingbutgeek.com/wp-content/uploads/2018/03/warmachine.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Релиз"}
+    ]
+  },
+  {
+    "type": "История",
+    "title": "Песни VladivostokFM, которые мы больше не услышим в GTA 4",
+    "lead": "От «Зеленоглазого такси» до «Группы крови»",
+    "picture": "http://stuki-druki.com/facts3/images/Sergei-Parhomenko-01.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "???"}
+    ]
+  },
+  {
+    "type": "История",
+    "title": "Скидки дня — 10 апреля",
+    "lead": "Final Fantasy 15, God of War 3, Hotline Miami и другие",
+    "picture": "https://coubsecure-s.akamaihd.net/get/b34/p/coub/simple/cw_timeline_pic/0eab27336ff/5a28ecba4bf7a468a9de4/big_1409621640_1381426934_image.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Скидка"}
+    ]
+  },
+  {
+    "type": "История",
+    "title": "Radical Heights выглядит откровенно жалко",
+    "lead": "Создатели LawBreakers пытаются запрыгнуть на уходящий поезд, но ошибаются вокзалом",
+    "picture": "https://static.gamespot.com/uploads/screen_kubrick/1556/15566302/3374430-gameplay_radicalheights_20180411_site.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Мнение"},
+      {"theme": "Battle Royale"}
+    ]
+  },
+  {
+    "type": "Статья",
+    "title": "Секс, наркотики, расизм: самые громкие скандалы со звездами киберспорта",
+    "lead": "GG EZ",
+    "picture": "https://s10.stc.all.kpcdn.net/share/i/12/10058689/inx960x640.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Скандал"},
+      {"theme": "Киберспорт"},
+      {"theme": "Лонгрид"}
+    ]
+  },
+  {
+    "type": "Видео",
+    "title": "Мнение: Алексей Макаренков о Chuchel",
+    "lead": "Красивая, но глубоко бестолковая головоломка от создателей Botanicula",
+    "picture": "http://amanita-design.net/img/games/chuchel-01.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Мнение"},
+      {"theme": "Оценки"},
+      {"theme": "Видео"}
+    ]
+  },
+  {
+    "type": "Трансляция",
+    "title": "Фогеймер-стрим. Играем в Left 4 Dead",
+    "lead": "",
+    "picture": "https://photos-1.dropbox.com/t/2/AADkP_TCWxC_Z8cFI1khjyWynP0P-vcIHDjY_Vf036gMQg/12/387187786/jpeg/32x32/3/1523905200/0/2/Covers-youtube2.jpg/EL201vYBGLLOGCAHKAc/Dbk1C2pt3w8QzFyxPFb3S3vMjmGZ6ifQLjEznIsW-Nc?dl=0&size=1280x960&size_mode=3",
+    "featured": false,
+		"themes": [
+      {"theme": "Стриминг"}
+    ]
+  },
+  {
+    "type": "Галереи",
+    "title": "Косплей дня: Helly Valentine",
+    "lead": "",
+    "picture": "https://pp.userapi.com/c836125/v836125696/63f73/1EutL3mShBE.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Галерея"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "В Overwatch начался ивент Retribution",
+    "lead": "Поучаствовать в нем можно будет до 30 апреля",
+    "picture": "https://dotesports-cdn-prod-tqgiyve.stackpathdns.com/article/24933c99-4a75-4039-a2fe-215a1042b490.jpg",
+    "featured": true,
+		"themes": [
+      {"theme": "Ивент"},
+      {"theme": "Релиз"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "Состоялся релиз Masters of Anima",
+    "lead": "",
+    "picture": "https://assets1.ignimgs.com/thumbs/userUploaded/2018/1/16/mastersgameplay-1516115083384.png",
+    "featured": false,
+		"themes": [
+      {"theme": "Видео"},
+      {"theme": "Релиз"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "Объявлены системные требования Vampyr",
+    "lead": "",
+    "picture": "http://images.pushsquare.com/news/2017/11/action_rpg_vampyr_wont_have_dlc_but_needs_to_sell_one_million/large.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Системные требования"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "Удаленные из GTA 4 песни заменят новыми",
+    "lead": "Только бы не «Тает лед»!",
+    "picture": "http://www.gamer.ru/system/attached_images/images/000/057/223/original/63qgkmm6w.jpg",
+    "featured": true,
+		"themes": [
+      {"theme": "Индустрия"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "Обновление Steam перекрыло возможность собирать данные сервису SteamSpy",
+    "lead": "",
+    "picture": "https://www.mcvuk.com/.image/t_share/MTU0ODIwMDU0MjIxODU4NTQ1/steam-spy-paradox_0.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Индустрия"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "«Акелла» не смогла вернуть права на «Корсаров»",
+    "lead": "Тем временем, сбор денег на диздок продолжается",
+    "picture": "https://mfst.igromania.ru/wp-content/uploads/2018/02/5566292cfeb64ce41699ee2ebf4eec88.png",
+    "featured": true,
+		"themes": [
+      {"theme": "Индустрия"},
+      {"theme": "Скандал"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "На Е3 2018 анонсируют Forza Horizon 4",
+    "lead": "",
+    "picture": "http://ksassets.timeincuk.net/wp/uploads/sites/54/2018/01/forza_horizon3.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Анонс"},
+      {"theme": "E3 2018"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "Sinner: Sacrifice for Redemption перенесли на третий квартал 2018 года",
+    "lead": "",
+    "picture": "http://cdn1-www.playstationlifestyle.net/assets/uploads/2017/12/Sinner_Steam_SS03.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Дата выхода"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "Авторы Hellblade пожертвуют на благотворительность деньги с продаж игры на Xbox One",
+    "lead": "",
+    "picture": "https://cdn4.dualshockers.com/wp-content/uploads/2017/03/Hellblade-Senuas-Sacrifice.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Индустрия"},
+      {"theme": "Релиз"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "Открытый бета-тест Dauntless стартует в мае",
+    "lead": "",
+    "picture": "https://venturebeat.com/wp-content/uploads/2017/01/Dauntless-Shrike.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Ранний доступ"}
+    ]
+  },
+  {
+    "type": "Истории",
+    "title": "Скидки дня — 11 апреля",
+    "lead": "Dark Souls, Bloodborne, Uncharted 4: A Thief’s End и другие",
+    "picture": "https://coubsecure-s.akamaihd.net/get/b34/p/coub/simple/cw_timeline_pic/0eab27336ff/5a28ecba4bf7a468a9de4/big_1409621640_1381426934_image.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Скидка"}
+    ]
+  },
+  {
+    "type": "Истории",
+    "title": "Overwatch Retribution: мало, но с душой",
+    "lead": "Новый ивент очень быстро выдыхается, но дает надежду на развитие вселенной игры",
+    "picture": "http://cdn.collider.com/wp-content/uploads/2018/04/overwatch-retribution-moira-skin.png",
+    "featured": false,
+		"themes": [
+      {"theme": "Мнение"},
+      {"theme": "Ивент"}
+    ]
+  },
+  {
+    "type": "Статьи",
+    "title": "Все, что мы знаем о вселенной Overwatch спустя два года после релиза",
+    "lead": "Учимся отличать Overwatch от Blackwatch, роботов — от омников, фанатский шипперинг от канона",
+    "picture": "http://assets1.ignimgs.com/thumbs/userUploaded/2017/5/22/overwatchoffenseheroes1280-1495486376056.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Лонгрид"}
+    ]
+  },
+  {
+    "type": "Трансляция",
+    "title": "ААААутопсия. Разбираем A Way Out",
+    "lead": "",
+    "picture": "https://photos-2.dropbox.com/t/2/AABHy7QZYBQ8kSBOZuUsU1dj-iknxdc6PH_sic1A7slNAg/12/167924052/jpeg/32x32/3/1523905200/0/2/Covers-youtube.jpg/EL201vYBGMXOGCAHKAc/RMJGB11GDAu1enpzQzujQso8Aq82jlx2EA1Wba5BQT8?dl=0&size=1280x960&size_mode=3",
+    "featured": false,
+		"themes": [
+      {"theme": "Мнение"},
+      {"theme": "Оценки"},
+      {"theme": "Стриминг"}
+    ]
+  },
+  {
+    "type": "Галерея",
+    "title": "Overwatch Retribution — лучшие скины",
+    "lead": "Легендарные «шкурки», которые не выйдут из моды (до следующего ивента)",
+    "picture": "https://images1.minutemediacdn.com/production/912x516/5acd21c63a9ff149c0000015.png",
+    "featured": false,
+		"themes": [
+      {"theme": "Ивент"},
+      {"theme": "Галерея"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "Рэпер Drake попросил добавить в Fortnite танец из песни Hotline Bling",
+    "lead": "Взамен обещает спеть про Fortnite в новом альбоме",
+    "picture": "http://pianosheetnotes.com/wp-content/uploads/2018/01/drake-hotline-bling-jacket-moncler_un1epy.jpg",
+    "featured": true,
+		"themes": [
+      {"theme": "Кроссовер"},
+      {"theme": "Battle Royale"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "Канал киберспортсмена Dota 2 удалили за расистское высказывание",
+    "lead": "",
+    "picture": "http://www.lasthit.com.br/wp-content/uploads/2014/12/headerice1_perfil_lasthit.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Скандал"},
+      {"theme": "Киберспорт"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "Новое дополнение для Destiny 2 получило название и дату релиза",
+    "lead": "Ra-ra-rasputin, russian crazy warmachine",
+    "picture": "https://cdn.vox-cdn.com/uploads/chorus_image/image/59356919/destiny_2_warmind.0.jpg",
+    "featured": true,
+		"themes": [
+      {"theme": "Дата выхода"},
+      {"theme": "Анонс"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "Вышел сюжетный трейлер стратегии BattleTech",
+    "lead": "",
+    "picture": "http://battletechgame.com/img/BT01.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Видео"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "Критики выставили первые оценки God of War",
+    "lead": "Осторожно! От количества «десяток» можно ослепнуть!",
+    "picture": "https://www.overclockers.ua/games/god-of-war-antalogy/01-god-of-war-antalogy.jpg",
+    "featured": true,
+		"themes": [
+      {"theme": "Оценки"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "Лучшего игрока в Donkey Kong обвинили в мошенничестве и исключили из Книги рекордов Гиннеса",
+    "lead": "Спустя 30 лет!",
+    "picture": "http://static2.uk.businessinsider.com/image/55b25cbddd0895c5538b46ac-2438-1829/billy%20mitchell%20barry%20brecheisen:invision:ap.jpg",
+    "featured": true,
+		"themes": [
+      {"theme": "Достижение"},
+      {"theme": "Скандал"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "Warcraft 3 получил поддержку широкоформатных мониторов",
+    "lead": "",
+    "picture": "https://assets1.ignimgs.com/thumbs/userUploaded/2018/2/23/warcraft-1519409804560.png",
+    "featured": false,
+		"themes": [
+      {"theme": "???"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "Египетская студия анонсировала ролевой экшен об арабском завоевании Персии",
+    "lead": "",
+    "picture": "http://assets1.ignimgs.com/2018/04/10/cover-1523393927492.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Анонс"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "В Injustice 2 стартовали бесплатные выходные",
+    "lead": "",
+    "picture": "https://www.injustice.com/img/share.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Халява"}
+    ]
+  },
+  {
+    "type": "История",
+    "title": "Скидки дня — 12 апреля",
+    "lead": "PlayerUnknown’s Battlegrounds, Overwatch, Hellblade: Senua’s Sacrifice и другие",
+    "picture": "https://coubsecure-s.akamaihd.net/get/b34/p/coub/simple/cw_timeline_pic/0eab27336ff/5a28ecba4bf7a468a9de4/big_1409621640_1381426934_image.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Скидка"}
+    ]
+  },
+  {
+    "type": "История",
+    "title": "Что мы знаем о втором дополнении для Destiny 2 — и на что надеемся",
+    "lead": "Новая раса, продуманный эндгейм и мощный сюжет — но это не точно",
+    "picture": "https://apollo2.dl.playstation.net/cdn/EP0002/CUSA06172_00/FREE_CONTENT0nivxJXiVMhRtMifyxIH/2.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "DLC"}
+    ]
+  },
+  {
+    "type": "Видео",
+    "title": "Мнение: Алексей Макаренков о фильме «Tomb Raider: Лара Крофт»",
+    "lead": "С Джоли было лучше!",
+    "picture": "http://sm.ign.com/ign_in/news/t/tomb-raide/tomb-raider-arcade-game-released-to-promote-movie_zfxg.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Кино"},
+      {"theme": "Мнение"},
+      {"theme": "Видео"}
+    ]
+  },
+  {
+    "type": "Галерея",
+    "title": "Косплей дня: Ирина Мейер",
+    "lead": "",
+    "picture": "https://pp.userapi.com/c824701/v824701255/ec0ba/VPWtcWI_FOg.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Галерея"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "Hellblade: Senua's Sacrifice победила в пяти номинациях BAFTA 2018",
+    "lead": "",
+    "picture": "https://gamerant.ru/wp-content/uploads/2017/08/hellblade-guide-01-770x480.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Достижение"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "Коллекционер игр нашел наркотики в картриджах NES",
+    "lead": "Нет, не в Super Mario Bros.",
+    "picture": "https://i.kinja-img.com/gawker-media/image/upload/c_scale,fl_progressive,q_80,w_800/jzehtnwpbg5qass05xuh.jpg",
+    "featured": true,
+		"themes": [
+      {"theme": "Дичь"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "The Banner Saga 3 выйдет 24 июля",
+    "lead": "",
+    "picture": "https://i.ytimg.com/vi/ByqmJfKvKLM/maxresdefault.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Дата выхода"},
+      {"theme": "Видео"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "Forgotton Anne обрела дату релиза",
+    "lead": "",
+    "picture": "http://mods-game.net/uploads/posts/gr-img/2016-09/14746360931squareenixgame.jpeg",
+    "featured": false,
+		"themes": [
+      {"theme": "Дата выхода"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "По вселенной EVE Online выйдет шутер под названиием Project Nova",
+    "lead": "Попытка номер два",
+    "picture": "https://assets.vg247.com/current//2016/04/project_nova_eve_online.jpg",
+    "featured": true,
+		"themes": [
+      {"theme": "Анонс"},
+      {"theme": "Видео"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "Издательство THQ пропустит E3 2018 из-за Чемпионата мира по футболу",
+    "lead": "",
+    "picture": "https://i.ytimg.com/vi/JUURZPqGZ1s/maxresdefault.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Индустрия"},
+      {"theme": "E3 2018"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "Новую часть BioShock выпустят разработчики Mafia 3",
+    "lead": "Все очень плохо.jpg",
+    "picture": "http://team102.ru/files/cooke/6372/bioshock-re.jpg",
+    "featured": true,
+		"themes": [
+      {"theme": "Индустрия"},
+      {"theme": "Слух"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "В PlayerUnknown’s Battlegrounds ввели временный режим Deathmatch",
+    "lead": "",
+    "picture": "https://pmcvariety.files.wordpress.com/2018/04/pubg.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Battle Royale"},
+      {"theme": "Ивент"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "DLC для Star Wars: Battlefront 2 позволило играть за Эвоков",
+    "lead": "Prepare Uranus",
+    "picture": "https://imagesmtv-a.akamaihd.net/uri/mgid:file:http:shared:mtv.com/news/wp-content/uploads/2015/09/Ewok-1441395870.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "DLC"},
+      {"theme": "Монетизация"}
+    ]
+  },
+  {
+    "type": "История",
+    "title": "Скидки дня — 13 апреля",
+    "lead": "Call of Duty: WW2, Layers of Fear, Tekken 7 и другие",
+    "picture": "https://coubsecure-s.akamaihd.net/get/b34/p/coub/simple/cw_timeline_pic/0eab27336ff/5a28ecba4bf7a468a9de4/big_1409621640_1381426934_image.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Скидка"}
+    ]
+  },
+  {
+    "type": "История",
+    "title": "Новую BioShock отдали разработчикам Mafia 3 — насколько все плохо?",
+    "lead": "Какие шансы у студии Hangar13 сделать нечто нестыдное?",
+    "picture": "https://vignette.wikia.nocookie.net/bioshock/images/2/2d/Fall.jpg/revision/latest?cb=20120805052516&path-prefix=ru",
+    "featured": false,
+		"themes": [
+      {"theme": "Слух"},
+      {"theme": "Мнение"}
+    ]
+  },
+  {
+    "type": "Статья",
+    "title": "Что ждет жанр Battle Royale",
+    "lead": "Разбираемся, когда мир перестанет трещать о мегапопулярном жанре",
+    "picture": "https://www.phoenix.org.uk/content/uploads/2017/12/Battle-Royale-1200x600-c-default.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Battle Royale"},
+      {"theme": "Лонгрид"}
+    ]
+  },
+  {
+    "type": "Видео",
+    "title": "Игровые новости: Overwatch-скандал, Fortnite и футбол, штрафы из-за лутбоксов",
+    "lead": "",
+    "picture": "https://i.ytimg.com/vi/ij6ERmsU7_Q/maxresdefault.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Видео"}
+    ]
+  },
+  {
+    "type": "Трансляция",
+    "title": "Пятничная дичь: спасаем жизни в Surgeon Simulator VR",
+    "lead": "",
+    "picture": "https://photos-6.dropbox.com/t/2/AACl88wr-_12xU2HduiTrlnhtEwLydwXjUJk5yqkdCR13w/12/387187786/jpeg/32x32/3/1523905200/0/2/Covers-youtube2.jpg/EL201vYBGMXOGCAHKAc/PNhQuu01UZbTY7_H5EpYvU5c3c2YQH6SIhto-nuwVaM?dl=0&size=1280x960&size_mode=3",
+    "featured": false,
+		"themes": [
+      {"theme": "Стриминг"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "Серию Shenmue переиздадут",
+    "lead": "",
+    "picture": "https://cdn.gamer-network.net/2018/articles/2018-04-14-13-12/SHENMUE_KEYART_RGB_1523616510.jpg/EG11/resize/690x-1/quality/75/format/jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Переиздание"},
+      {"theme": "Анонс"},
+      {"theme": "Видео"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "SEGA анонсировала ретроконсоль Mega Drive Mini",
+    "lead": "О встроенных в консоль играх информации пока нет",
+    "picture": "https://cnet2.cbsistatic.com/img/e97nxSgOAAa_aJy-j1X6Gqc-6yg=/970x0/2018/04/14/83514c74-5f43-4a78-81fc-e16f824fd0b5/sega-megadrive-mini.jpg",
+    "featured": true,
+		"themes": [
+      {"theme": "Переиздание"},
+      {"theme": "Индустрия"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "Разработка Terraria Otherworld прекращена",
+    "lead": "",
+    "picture": "https://www.terraria-otherworld.ru/images/posts/noviye-spoilery-terraria-otherworld/TOW_Screen1.png",
+    "featured": false,
+		"themes": [
+      {"theme": "???"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "A Way Out за две недели разошлась тиражом в 1 миллион копий",
+    "lead": "",
+    "picture": "https://b1.gmbox.ru/c/151317.815xp.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Индустрия"}
+    ]
+  },
+  {
+    "type": "История",
+    "title": "Как я упоролся и потратил год на выбивание ачивки в The Binding of Isaac",
+    "lead": "Что движет охотниками за достижениями и почему это верный способ испортить для себя игру",
+    "picture": "https://trashbox.ru/files/766429_4d133c/1.png",
+    "featured": false,
+		"themes": [
+      {"theme": "Мнение"},
+      {"theme": "Достижение"}
+    ]
+  },
+  {
+    "type": "Статья",
+    "title": "Рецензия на A Way Out",
+    "lead": "Неровное и неоднозначное приключение на двоих, которое каким-то образом заставляет плакать на титрах. 7,5/10",
+    "picture": "https://www.gamepur.com/files/images/2016/a-way-out-gameplay-length.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Оценки"},
+      {"theme": "Мнение"},
+      {"theme": "Лонгрид"}
+    ]
+  },
+  {
+    "type": "Новость",
+    "title": "Консольная версия Agony подверглась цензуре",
+    "lead": "",
+    "picture": "https://static1.squarespace.com/static/55ef0e29e4b099e22cdc9eea/t/5ab383928a922d5e4a04a2e7/1521714071063/?format=750w",
+    "featured": false,
+		"themes": [
+      {"theme": "Цензура"}
+    ]
+  },
+  {
+    "type": "История",
+    "title": "Почему повзрослевший Кратос из God of War — лучшая демонстрация взросления индустрии",
+    "lead": "Папа может",
+    "picture": "https://cdn.igromania.ru/mnt/news/4/c/1/9/3/9/73571/2b83024123b5daff_848x477.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Мнение"}
+    ]
+  },
+  {
+    "type": "Видео",
+    "title": "Мужицкие забавы: русская военная техника в играх",
+    "lead": "Папа может",
+    "picture": "https://i.ytimg.com/vi/Lp7pU7d16fM/maxresdefault.jpg",
+    "featured": false,
+		"themes": [
+      {"theme": "Видео"}
+    ]
+  }
+]

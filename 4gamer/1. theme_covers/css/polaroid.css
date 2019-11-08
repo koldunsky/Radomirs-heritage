@@ -1,0 +1,57 @@
+.polaroid > .snippet {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.polaroid > .snippet > *:first-child {
+  margin-bottom: 10px;
+}
+
+.polaroid > * > .thumb {
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+}
+
+.polaroid > * > .theme_wrap {
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.polaroid > * > .theme_wrap > .theme {
+  display: inline-table;
+  background-color: rgba(0, 0, 0, .1);
+}
+
+/* Полароид 1×1, polaroid_square_photo */
+
+.polaroid.square_photo > * > .thumb {
+  padding-top: 100%;
+}
+
+/* Полароид 1×1 карточка, polaroid_square_card */
+
+.polaroid.square_card > * > .thumb {
+  padding-top: calc(100% - 3 * 10px - 45px);
+}
+
+/* Полароид 16×9 фото, polaroid_square_wide */
+
+.polaroid.wide > * > .thumb {
+  padding-top: calc(100% / 16 * 9);
+}
+
+/* */
+
+.polaroid.leftie > * > .theme_wrap {
+  height: 45px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}

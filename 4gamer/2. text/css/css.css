@@ -1,0 +1,139 @@
+:root {
+  --base-font-size: 16px;
+  --base-line-height: 2;
+
+  --supertitle-scale: 2.441;
+  --h1-scale: 1.953;
+  --h2-scale: 1.563;
+  --h3-scale: 1.25;
+  --heading-line-height: 1.5;
+
+  --tagline-scale: var(--h2-scale);
+  --lead-scale: var(--h3-scale);
+  --small-copy-scale: .875;
+  --micro-copy: .8;
+
+  --captions-scale: .8;
+
+  --base-spacing: calc(var(--base-font-size) * var(--base-line-height));
+  --double-spacing: calc(var(--base-font-size) * var(--base-line-height) * 2);
+
+  --column-width: 45em;
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  margin: 0;
+  color: rgba(0,0,0,.75);
+  font-family: Gotham;
+  font-size: var(--base-font-size);
+  line-height: var(--base-line-height);
+  font-weight: 500;
+  letter-spacing: -0.4px;
+}
+
+h1, h2, h3 {
+  line-height: var(--heading-line-height);
+}
+
+h1 {
+  font-size: calc(var(--base-font-size) * var(--h1-scale));
+  margin-top: var(--double-spacing);
+  margin-bottom: var(--base-spacing);
+}
+
+h2 {
+  font-size: calc(var(--base-font-size) * var(--h2-scale));
+  margin-top: var(--double-spacing);
+  margin-bottom: var(--base-spacing);
+}
+
+h3 {
+  font-size: calc(var(--base-font-size) * var(--h3-scale));
+  margin-top: var(--double-spacing);
+  margin-bottom: var(--base-spacing);
+}
+
+h1 + h2 {
+  margin-top: var(--base-spacing);
+}
+
+p {
+  margin-top: var(--base-spacing);
+  margin-bottom: var(--base-spacing);
+}
+
+iframe, image {
+  width: 100%;
+  height: calc(var(--column-width) / 16 * 9);
+}
+
+.article_header {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 100%), url(https://ru.4game.com/4gamer/-/88643b2ac7f818f9a87992cd7f9839c4/images/642dad7b-e4ec-4b2c-be6e-b66cc2d2b0df.jpeg);
+  background-size: cover;
+  background-position: center;
+
+  width: calc(100vw - (var(--double-spacing) * 2));
+  height: calc(75vh - var(--double-spacing));
+
+  margin-top: var(--double-spacing);
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+}
+
+.supertitle {
+  font-size: calc(var(--base-font-size) * var(--supertitle-scale));
+  line-height: var(--heading-line-height);
+  font-weight: bold;
+}
+
+.tagline {
+  font-size: calc(var(--base-font-size) * var(--tagline-scale));
+  line-height: var(--heading-line-height);
+  font-weight: normal;
+}
+
+.article_header > p {
+  margin: 0;
+}
+
+.article_header > :last-child {
+  margin-top: var(--base-spacing);
+}
+
+.article {
+  box-sizing: border-box;
+  width: var(--column-width);
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 50vh;
+
+  position: relative;
+}
+
+.article > * {
+  width: 100%;
+}
+
+.lead {
+  font-size: calc(var(--base-font-size) * var(--lead-scale));
+  font-weight: normal;
+}
+
+.stress {
+  font-style: italic;
+}

@@ -1,0 +1,152 @@
+[
+  {
+		"theme": "battle_royale",
+		"ru": "Баттл рояль",
+    "covers": 0
+	},
+  {
+		"theme": "cybersport",
+		"ru": "Киберспорт",
+    "covers": 0
+	},
+  {
+		"theme": "dafuq",
+		"ru": "Дичь",
+    "covers": 1
+	},
+  {
+		"theme": "dlc",
+		"ru": "DLC",
+    "covers": 1
+	},
+  {
+		"theme": "e3",
+		"ru": "E3",
+    "covers": 0
+	},
+  {
+		"theme": "early_access",
+		"ru": "Ранний доступ",
+    "covers": 1
+	},
+  {
+		"theme": "event",
+		"ru": "Ивент",
+    "covers": 1
+	},
+  {
+		"theme": "hard",
+		"ru": "Железо",
+    "covers": 2
+	},
+  {
+		"theme": "industry",
+		"ru": "Индустрия",
+    "covers": 2
+	},
+  {
+		"theme": "longread",
+		"ru": "Лонгрид",
+    "covers": 2
+	},
+  {
+		"theme": "monetization",
+		"ru": "Монетизация",
+    "covers": 0
+	},
+  {
+		"theme": "movie",
+		"ru": "Кино",
+    "covers": 2
+	},
+  {
+		"theme": "nsfw",
+		"ru": "NSFW",
+    "covers": 2
+	},
+  {
+		"theme": "opinion",
+		"ru": "Мнение",
+    "covers": 0
+	},
+  {
+		"theme": "photo",
+		"ru": "Галерея",
+    "covers": 1
+	},
+  {
+		"theme": "prize",
+		"ru": "Награды",
+    "covers": 0
+	},
+  {
+		"theme": "monetization",
+		"ru": "Монетизация",
+    "covers": 1
+	},
+  {
+		"theme": "reissue",
+		"ru": "Ремастер",
+    "covers": 0
+	},
+  {
+		"theme": "release",
+		"ru": "Релиз",
+    "covers": 1
+	},
+  {
+		"theme": "release_date",
+		"ru": "Дата релиза",
+    "covers": 0
+	},
+  {
+		"theme": "reveal",
+		"ru": "Анонс",
+    "covers": 2
+	},
+  {
+		"theme": "scores",
+		"ru": "Оценки",
+    "covers": 2
+	},
+  {
+		"theme": "video",
+		"ru": "Трейлер",
+    "covers": 1
+	},
+  {
+		"theme": "tech_reqs",
+		"ru": "Системные требовани",
+    "covers": 1
+	},
+  {
+		"theme": "scandal",
+		"ru": "Скандал",
+    "covers": 2
+	},
+  {
+		"theme": "sale",
+		"ru": "Скидки",
+    "covers": 1
+	},
+  {
+		"theme": "rumor",
+		"ru": "Слух",
+    "covers": 3
+	},
+  {
+		"theme": "stream",
+		"ru": "Стримы",
+    "covers": 2
+	},
+  {
+		"theme": "free",
+		"ru": "Халява",
+    "covers": 0
+	},
+  {
+		"theme": "japan",
+		"ru": "Япония",
+    "covers": 1
+	}
+]

@@ -1,0 +1,36 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/css.css">
+
+  <link rel="stylesheet" type="text/css" href="css/gotham.css">
+
+  <script src="scripts/main.js" type="text/javascript"></script>
+</head>
+
+<body onload="onLoad()">
+  <div class="contols_wrapper">
+    <input type="radio" name="class" id="nothing" checked>
+    <label for="nothing" onclick="switch_tags(this)">Ничего</label>
+    <input type="radio" name="class" id="indus">
+    <label for="indus" onclick="switch_tags(this)">Индустрия</label>
+    <input type="radio" name="class" id="rofl">
+    <label for="rofl" onclick="switch_tags(this)">Рофлер</label>
+    <input type="radio" name="class" id="pcmasterrace">
+    <label for="pcmasterrace" onclick="switch_tags(this)">ПК-боярин</label>
+    <input type="radio" name="class" id="lazy">
+    <label for="lazy" onclick="switch_tags(this)">Ленивка</label>
+    <input type="radio" name="class" id="fan">
+    <label for="fan" onclick="switch_tags(this)">Ваш поклонник</label>
+    <input type="radio" name="class" id="online">
+    <label for="online" onclick="switch_tags(this)">Онлайн онли</label>
+    <input type="radio" name="class" id="poor">
+    <label for="poor" onclick="switch_tags(this)">Бомж</label>
+    <input type="radio" name="class" id="whatever">
+    <label for="whatever" onclick="switch_tags(this)">Только про игры</label>
+    <input type="radio" name="class" id="everything">
+    <label for="everything" onclick="turn_all_tags_on()">Всё</label>
+  </div>
+  <div class="feed" id="feed">
+  </div>
+</html>

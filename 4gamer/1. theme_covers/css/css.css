@@ -1,0 +1,81 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #12121c;
+  margin: 0;
+  color: rgba(255, 255, 255, .2);
+  font-family: Gotham;
+  color: white;
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  margin: 0;
+}
+
+.feed {
+  display: grid;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  grid-template-columns: 300px 300px 300px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1290px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.snippet {
+  width: 300px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.theme {
+  padding: 10px 35px 10px 15px;
+  font-size: 18px;
+  color: black;
+  line-height: 25px;
+  text-transform: uppercase;
+  -webkit-mask-image: url("../images/theme_mask.svg");
+  -webkit-mask-position: right;
+  -webkit-mask-size: cover;
+  font-weight: 500;
+  white-space: nowrap;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.theme::after {
+  content: "";
+  display: block;
+  float: right;
+  width: 13px;
+  height: 25px;
+  background-image: url("../images/theme_add.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 15px;
+}
+
+.theme:hover {
+  background-color: rgb(79, 193, 41) !important;
+}
+
+.contols_wrapper {
+  width: 300px;
+  background-color: rgba(18, 18, 28, 0.8);
+  top: 30px;
+  right: 0;
+  z-index: 1;
+  position: fixed;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
